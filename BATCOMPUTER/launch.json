@@ -1,0 +1,14 @@
+
+ {  "name": "PowerShell: Launch Script",
+      "type": "PowerShell",
+    "request": "launch",
+    "script": "${workspaceFolder}/src/foo.ps1",
+    "args": [
+                "-NoProfile",
+                "-ExecutionPolicy",
+                "Bypass",
+                "-File",
+                "${workspaceFolder}/src/foo.ps1"
+            ]
+        }
+    
