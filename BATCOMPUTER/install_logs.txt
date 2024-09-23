@@ -1,0 +1,1094 @@
+Collecting autotrain-advanced
+  Downloading autotrain_advanced-0.8.19-py3-none-any.whl.metadata (14 kB)
+Collecting albumentations==1.4.7 (from autotrain-advanced)
+  Downloading albumentations-1.4.7-py3-none-any.whl.metadata (37 kB)
+Collecting codecarbon==2.3.5 (from autotrain-advanced)
+  Downloading codecarbon-2.3.5-py3-none-any.whl.metadata (6.6 kB)
+Collecting datasets~=2.19.0 (from datasets[vision]~=2.19.0->autotrain-advanced)
+  Downloading datasets-2.19.2-py3-none-any.whl.metadata (19 kB)
+Collecting evaluate==0.4.1 (from autotrain-advanced)
+  Downloading evaluate-0.4.1-py3-none-any.whl.metadata (9.4 kB)
+Collecting ipadic==1.0.0 (from autotrain-advanced)
+  Downloading ipadic-1.0.0.tar.gz (13.4 MB)
+     ---------------------------------------- 0.0/13.4 MB ? eta -:--:--
+     - -------------------------------------- 0.5/13.4 MB 2.4 MB/s eta 0:00:06
+     ----- ---------------------------------- 1.8/13.4 MB 4.6 MB/s eta 0:00:03
+     -------- ------------------------------- 2.9/13.4 MB 4.8 MB/s eta 0:00:03
+     ----------- ---------------------------- 3.9/13.4 MB 4.8 MB/s eta 0:00:02
+     -------------- ------------------------- 5.0/13.4 MB 5.0 MB/s eta 0:00:02
+     ------------------- -------------------- 6.6/13.4 MB 5.3 MB/s eta 0:00:02
+     ----------------------- ---------------- 7.9/13.4 MB 5.6 MB/s eta 0:00:01
+     --------------------------- ------------ 9.2/13.4 MB 5.7 MB/s eta 0:00:01
+     ----------------------------- ---------- 10.0/13.4 MB 5.5 MB/s eta 0:00:01
+     --------------------------------- ------ 11.3/13.4 MB 5.6 MB/s eta 0:00:01
+     ------------------------------------ --- 12.3/13.4 MB 5.6 MB/s eta 0:00:01
+     ---------------------------------------- 13.4/13.4 MB 5.5 MB/s eta 0:00:00
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting jiwer==3.0.3 (from autotrain-advanced)
+  Downloading jiwer-3.0.3-py3-none-any.whl.metadata (2.6 kB)
+Collecting joblib==1.4.0 (from autotrain-advanced)
+  Downloading joblib-1.4.0-py3-none-any.whl.metadata (5.4 kB)
+Collecting loguru==0.7.2 (from autotrain-advanced)
+  Downloading loguru-0.7.2-py3-none-any.whl.metadata (23 kB)
+Requirement already satisfied: pandas==2.2.2 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from autotrain-advanced) (2.2.2)
+Collecting nltk==3.8.1 (from autotrain-advanced)
+  Using cached nltk-3.8.1-py3-none-any.whl.metadata (2.8 kB)
+Collecting optuna==3.6.1 (from autotrain-advanced)
+  Downloading optuna-3.6.1-py3-none-any.whl.metadata (17 kB)
+Collecting Pillow==10.3.0 (from autotrain-advanced)
+  Downloading pillow-10.3.0-cp311-cp311-win_amd64.whl.metadata (9.4 kB)
+Collecting protobuf==4.23.4 (from autotrain-advanced)
+  Downloading protobuf-4.23.4-cp310-abi3-win_amd64.whl.metadata (540 bytes)
+Collecting sacremoses==0.1.1 (from autotrain-advanced)
+  Downloading sacremoses-0.1.1-py3-none-any.whl.metadata (8.3 kB)
+Collecting scikit-learn==1.5.0 (from autotrain-advanced)
+  Downloading scikit_learn-1.5.0-cp311-cp311-win_amd64.whl.metadata (11 kB)
+Collecting sentencepiece==0.2.0 (from autotrain-advanced)
+  Downloading sentencepiece-0.2.0-cp311-cp311-win_amd64.whl.metadata (8.3 kB)
+Collecting tqdm==4.66.4 (from autotrain-advanced)
+  Using cached tqdm-4.66.4-py3-none-any.whl.metadata (57 kB)
+Collecting werkzeug==3.0.2 (from autotrain-advanced)
+  Downloading werkzeug-3.0.2-py3-none-any.whl.metadata (4.1 kB)
+Collecting xgboost==2.0.3 (from autotrain-advanced)
+  Downloading xgboost-2.0.3-py3-none-win_amd64.whl.metadata (2.0 kB)
+Collecting huggingface-hub==0.23.4 (from autotrain-advanced)
+  Using cached huggingface_hub-0.23.4-py3-none-any.whl.metadata (12 kB)
+Collecting requests==2.31.0 (from autotrain-advanced)
+  Downloading requests-2.31.0-py3-none-any.whl.metadata (4.6 kB)
+Collecting einops==0.7.0 (from autotrain-advanced)
+  Using cached einops-0.7.0-py3-none-any.whl.metadata (13 kB)
+Collecting invisible-watermark==0.2.0 (from autotrain-advanced)
+  Downloading invisible_watermark-0.2.0-py3-none-any.whl.metadata (8.2 kB)
+Collecting packaging==24.0 (from autotrain-advanced)
+  Downloading packaging-24.0-py3-none-any.whl.metadata (3.2 kB)
+Collecting cryptography==42.0.5 (from autotrain-advanced)
+  Downloading cryptography-42.0.5-cp39-abi3-win_amd64.whl.metadata (5.4 kB)
+Requirement already satisfied: nvitop==1.3.2 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from autotrain-advanced) (1.3.2)
+Collecting tensorboard==2.16.2 (from autotrain-advanced)
+  Downloading tensorboard-2.16.2-py3-none-any.whl.metadata (1.6 kB)
+Collecting peft==0.12.0 (from autotrain-advanced)
+  Downloading peft-0.12.0-py3-none-any.whl.metadata (13 kB)
+Collecting trl==0.10.1 (from autotrain-advanced)
+  Downloading trl-0.10.1-py3-none-any.whl.metadata (12 kB)
+Collecting tiktoken==0.6.0 (from autotrain-advanced)
+  Downloading tiktoken-0.6.0-cp311-cp311-win_amd64.whl.metadata (6.8 kB)
+Collecting transformers==4.44.2 (from autotrain-advanced)
+  Downloading transformers-4.44.2-py3-none-any.whl.metadata (43 kB)
+Collecting accelerate==0.34.1 (from autotrain-advanced)
+  Downloading accelerate-0.34.1-py3-none-any.whl.metadata (19 kB)
+Collecting diffusers==0.27.2 (from autotrain-advanced)
+  Downloading diffusers-0.27.2-py3-none-any.whl.metadata (18 kB)
+Collecting rouge-score==0.1.2 (from autotrain-advanced)
+  Downloading rouge_score-0.1.2.tar.gz (17 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting py7zr==0.21.0 (from autotrain-advanced)
+  Downloading py7zr-0.21.0-py3-none-any.whl.metadata (17 kB)
+Collecting fastapi==0.111.0 (from autotrain-advanced)
+  Using cached fastapi-0.111.0-py3-none-any.whl.metadata (25 kB)
+Collecting uvicorn==0.29.0 (from autotrain-advanced)
+  Downloading uvicorn-0.29.0-py3-none-any.whl.metadata (6.3 kB)
+Collecting python-multipart==0.0.9 (from autotrain-advanced)
+  Using cached python_multipart-0.0.9-py3-none-any.whl.metadata (2.5 kB)
+Collecting pydantic==2.7.1 (from autotrain-advanced)
+  Downloading pydantic-2.7.1-py3-none-any.whl.metadata (107 kB)
+Collecting hf-transfer (from autotrain-advanced)
+  Downloading hf_transfer-0.1.8-cp311-none-win_amd64.whl.metadata (1.8 kB)
+Collecting pyngrok==7.1.6 (from autotrain-advanced)
+  Downloading pyngrok-7.1.6-py3-none-any.whl.metadata (7.4 kB)
+Collecting authlib==1.3.0 (from autotrain-advanced)
+  Downloading Authlib-1.3.0-py2.py3-none-any.whl.metadata (3.8 kB)
+Collecting itsdangerous==2.2.0 (from autotrain-advanced)
+  Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting seqeval==1.2.2 (from autotrain-advanced)
+  Downloading seqeval-1.2.2.tar.gz (43 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting httpx==0.27.0 (from autotrain-advanced)
+  Using cached httpx-0.27.0-py3-none-any.whl.metadata (7.2 kB)
+Collecting pyyaml==6.0.1 (from autotrain-advanced)
+  Using cached PyYAML-6.0.1-cp311-cp311-win_amd64.whl.metadata (2.1 kB)
+Collecting timm==1.0.8 (from autotrain-advanced)
+  Downloading timm-1.0.8-py3-none-any.whl.metadata (53 kB)
+Collecting torchmetrics==1.4.0 (from autotrain-advanced)
+  Downloading torchmetrics-1.4.0-py3-none-any.whl.metadata (19 kB)
+Collecting pycocotools==2.0.7 (from autotrain-advanced)
+  Downloading pycocotools-2.0.7-cp311-cp311-win_amd64.whl.metadata (1.1 kB)
+Collecting sentence-transformers==3.1.0 (from autotrain-advanced)
+  Downloading sentence_transformers-3.1.0-py3-none-any.whl.metadata (23 kB)
+Requirement already satisfied: numpy<3.0.0,>=1.17 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from accelerate==0.34.1->autotrain-advanced) (1.26.4)
+Requirement already satisfied: psutil in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from accelerate==0.34.1->autotrain-advanced) (6.0.0)
+Requirement already satisfied: torch>=1.10.0 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from accelerate==0.34.1->autotrain-advanced) (2.4.0)
+Requirement already satisfied: safetensors>=0.4.3 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from accelerate==0.34.1->autotrain-advanced) (0.4.4)
+Requirement already satisfied: scipy>=1.10.0 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from albumentations==1.4.7->autotrain-advanced) (1.14.0)
+Collecting scikit-image>=0.21.0 (from albumentations==1.4.7->autotrain-advanced)
+  Downloading scikit_image-0.24.0-cp311-cp311-win_amd64.whl.metadata (14 kB)
+Requirement already satisfied: typing-extensions>=4.9.0 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from albumentations==1.4.7->autotrain-advanced) (4.12.2)
+Collecting opencv-python-headless>=4.9.0 (from albumentations==1.4.7->autotrain-advanced)
+  Downloading opencv_python_headless-4.10.0.84-cp37-abi3-win_amd64.whl.metadata (20 kB)
+Collecting arrow (from codecarbon==2.3.5->autotrain-advanced)
+  Downloading arrow-1.3.0-py3-none-any.whl.metadata (7.5 kB)
+Collecting pynvml (from codecarbon==2.3.5->autotrain-advanced)
+  Downloading pynvml-11.5.3-py3-none-any.whl.metadata (8.8 kB)
+Collecting py-cpuinfo (from codecarbon==2.3.5->autotrain-advanced)
+  Downloading py_cpuinfo-9.0.0-py3-none-any.whl.metadata (794 bytes)
+Collecting rapidfuzz (from codecarbon==2.3.5->autotrain-advanced)
+  Downloading rapidfuzz-3.9.7-cp311-cp311-win_amd64.whl.metadata (12 kB)
+Requirement already satisfied: click in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from codecarbon==2.3.5->autotrain-advanced) (8.1.7)
+Collecting prometheus-client (from codecarbon==2.3.5->autotrain-advanced)
+  Downloading prometheus_client-0.21.0-py3-none-any.whl.metadata (1.8 kB)
+Collecting cffi>=1.12 (from cryptography==42.0.5->autotrain-advanced)
+  Downloading cffi-1.17.1-cp311-cp311-win_amd64.whl.metadata (1.6 kB)
+Requirement already satisfied: importlib-metadata in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from diffusers==0.27.2->autotrain-advanced) (6.11.0)
+Requirement already satisfied: filelock in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from diffusers==0.27.2->autotrain-advanced) (3.15.4)
+Requirement already satisfied: regex!=2019.12.17 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from diffusers==0.27.2->autotrain-advanced) (2024.7.24)
+Requirement already satisfied: dill in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from evaluate==0.4.1->autotrain-advanced) (0.3.8)
+Collecting xxhash (from evaluate==0.4.1->autotrain-advanced)
+  Downloading xxhash-3.5.0-cp311-cp311-win_amd64.whl.metadata (13 kB)
+Requirement already satisfied: multiprocess in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from evaluate==0.4.1->autotrain-advanced) (0.70.16)
+Requirement already satisfied: fsspec>=2021.05.0 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from fsspec[http]>=2021.05.0->evaluate==0.4.1->autotrain-advanced) (2024.6.1)
+Collecting responses<0.19 (from evaluate==0.4.1->autotrain-advanced)
+  Downloading responses-0.18.0-py3-none-any.whl.metadata (29 kB)
+Requirement already satisfied: starlette<0.38.0,>=0.37.2 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from fastapi==0.111.0->autotrain-advanced) (0.37.2)
+Collecting fastapi-cli>=0.0.2 (from fastapi==0.111.0->autotrain-advanced)
+  Downloading fastapi_cli-0.0.5-py3-none-any.whl.metadata (7.0 kB)
+Requirement already satisfied: jinja2>=2.11.2 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from fastapi==0.111.0->autotrain-advanced) (3.1.4)
+Collecting ujson!=4.0.2,!=4.1.0,!=4.2.0,!=4.3.0,!=5.0.0,!=5.1.0,>=4.0.1 (from fastapi==0.111.0->autotrain-advanced)
+  Using cached ujson-5.10.0-cp311-cp311-win_amd64.whl.metadata (9.5 kB)
+Requirement already satisfied: orjson>=3.2.1 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from fastapi==0.111.0->autotrain-advanced) (3.10.7)
+Collecting email_validator>=2.0.0 (from fastapi==0.111.0->autotrain-advanced)
+  Using cached email_validator-2.2.0-py3-none-any.whl.metadata (25 kB)
+Requirement already satisfied: anyio in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from httpx==0.27.0->autotrain-advanced) (4.4.0)
+Requirement already satisfied: certifi in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from httpx==0.27.0->autotrain-advanced) (2024.7.4)
+Requirement already satisfied: httpcore==1.* in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from httpx==0.27.0->autotrain-advanced) (1.0.5)
+Requirement already satisfied: idna in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from httpx==0.27.0->autotrain-advanced) (3.7)
+Requirement already satisfied: sniffio in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from httpx==0.27.0->autotrain-advanced) (1.3.1)
+Collecting PyWavelets>=1.1.1 (from invisible-watermark==0.2.0->autotrain-advanced)
+  Downloading pywavelets-1.7.0-cp311-cp311-win_amd64.whl.metadata (9.0 kB)
+Collecting opencv-python>=4.1.0.25 (from invisible-watermark==0.2.0->autotrain-advanced)
+  Downloading opencv_python-4.10.0.84-cp37-abi3-win_amd64.whl.metadata (20 kB)
+Requirement already satisfied: colorama>=0.3.4 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from loguru==0.7.2->autotrain-advanced) (0.4.6)
+Collecting win32-setctime>=1.0.0 (from loguru==0.7.2->autotrain-advanced)
+  Downloading win32_setctime-1.1.0-py3-none-any.whl.metadata (2.3 kB)
+Requirement already satisfied: nvidia-ml-py<12.536.0a0,>=11.450.51 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from nvitop==1.3.2->autotrain-advanced) (12.535.161)
+Requirement already satisfied: cachetools>=1.0.1 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from nvitop==1.3.2->autotrain-advanced) (5.4.0)
+Requirement already satisfied: termcolor>=1.0.0 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from nvitop==1.3.2->autotrain-advanced) (2.4.0)
+Requirement already satisfied: windows-curses>=2.2.0 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from nvitop==1.3.2->autotrain-advanced) (2.3.3)
+Collecting alembic>=1.5.0 (from optuna==3.6.1->autotrain-advanced)
+  Downloading alembic-1.13.2-py3-none-any.whl.metadata (7.4 kB)
+Collecting colorlog (from optuna==3.6.1->autotrain-advanced)
+  Downloading colorlog-6.8.2-py3-none-any.whl.metadata (10 kB)
+Requirement already satisfied: sqlalchemy>=1.3.0 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from optuna==3.6.1->autotrain-advanced) (2.0.32)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from pandas==2.2.2->autotrain-advanced) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from pandas==2.2.2->autotrain-advanced) (2024.1)
+Requirement already satisfied: tzdata>=2022.7 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from pandas==2.2.2->autotrain-advanced) (2024.1)
+Collecting texttable (from py7zr==0.21.0->autotrain-advanced)
+  Downloading texttable-1.7.0-py2.py3-none-any.whl.metadata (9.8 kB)
+Collecting pycryptodomex>=3.16.0 (from py7zr==0.21.0->autotrain-advanced)
+  Downloading pycryptodomex-3.20.0-cp35-abi3-win_amd64.whl.metadata (3.4 kB)
+Collecting pyzstd>=0.15.9 (from py7zr==0.21.0->autotrain-advanced)
+  Downloading pyzstd-0.16.1-cp311-cp311-win_amd64.whl.metadata (2.5 kB)
+Collecting pyppmd<1.2.0,>=1.1.0 (from py7zr==0.21.0->autotrain-advanced)
+  Downloading pyppmd-1.1.0-cp311-cp311-win_amd64.whl.metadata (5.8 kB)
+Collecting pybcj<1.1.0,>=1.0.0 (from py7zr==0.21.0->autotrain-advanced)
+  Downloading pybcj-1.0.2-cp311-cp311-win_amd64.whl.metadata (4.1 kB)
+Collecting multivolumefile>=0.2.3 (from py7zr==0.21.0->autotrain-advanced)
+  Downloading multivolumefile-0.2.3-py3-none-any.whl.metadata (6.3 kB)
+Collecting inflate64<1.1.0,>=1.0.0 (from py7zr==0.21.0->autotrain-advanced)
+  Downloading inflate64-1.0.0-cp311-cp311-win_amd64.whl.metadata (4.1 kB)
+Collecting brotli>=1.1.0 (from py7zr==0.21.0->autotrain-advanced)
+  Downloading Brotli-1.1.0-cp311-cp311-win_amd64.whl.metadata (5.6 kB)
+Collecting matplotlib>=2.1.0 (from pycocotools==2.0.7->autotrain-advanced)
+  Downloading matplotlib-3.9.2-cp311-cp311-win_amd64.whl.metadata (11 kB)
+Requirement already satisfied: annotated-types>=0.4.0 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from pydantic==2.7.1->autotrain-advanced) (0.7.0)
+Collecting pydantic-core==2.18.2 (from pydantic==2.7.1->autotrain-advanced)
+  Downloading pydantic_core-2.18.2-cp311-none-win_amd64.whl.metadata (6.7 kB)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from requests==2.31.0->autotrain-advanced) (3.3.2)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from requests==2.31.0->autotrain-advanced) (2.2.2)
+Collecting absl-py (from rouge-score==0.1.2->autotrain-advanced)
+  Downloading absl_py-2.1.0-py3-none-any.whl.metadata (2.3 kB)
+Requirement already satisfied: six>=1.14.0 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from rouge-score==0.1.2->autotrain-advanced) (1.16.0)
+Requirement already satisfied: threadpoolctl>=3.1.0 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from scikit-learn==1.5.0->autotrain-advanced) (3.5.0)
+Requirement already satisfied: grpcio>=1.48.2 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from tensorboard==2.16.2->autotrain-advanced) (1.66.0)
+Collecting markdown>=2.6.8 (from tensorboard==2.16.2->autotrain-advanced)
+  Downloading Markdown-3.7-py3-none-any.whl.metadata (7.0 kB)
+Requirement already satisfied: setuptools>=41.0.0 in c:\program files\windowsapps\pythonsoftwarefoundation.python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\lib\site-packages (from tensorboard==2.16.2->autotrain-advanced) (65.5.0)
+Collecting tensorboard-data-server<0.8.0,>=0.7.0 (from tensorboard==2.16.2->autotrain-advanced)
+  Downloading tensorboard_data_server-0.7.2-py3-none-any.whl.metadata (1.1 kB)
+Collecting torchvision (from timm==1.0.8->autotrain-advanced)
+  Downloading torchvision-0.19.1-cp311-cp311-win_amd64.whl.metadata (6.1 kB)
+Collecting lightning-utilities>=0.8.0 (from torchmetrics==1.4.0->autotrain-advanced)
+  Downloading lightning_utilities-0.11.7-py3-none-any.whl.metadata (5.2 kB)
+Collecting pretty-errors==1.2.25 (from torchmetrics==1.4.0->autotrain-advanced)
+  Downloading pretty_errors-1.2.25-py3-none-any.whl.metadata (12 kB)
+Requirement already satisfied: tokenizers<0.20,>=0.19 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from transformers==4.44.2->autotrain-advanced) (0.19.1)
+Collecting tyro>=0.5.11 (from trl==0.10.1->autotrain-advanced)
+  Downloading tyro-0.8.11-py3-none-any.whl.metadata (8.4 kB)
+Requirement already satisfied: h11>=0.8 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from uvicorn==0.29.0->autotrain-advanced) (0.14.0)
+Requirement already satisfied: MarkupSafe>=2.1.1 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from werkzeug==3.0.2->autotrain-advanced) (2.1.5)
+Collecting pyarrow>=12.0.0 (from datasets~=2.19.0->datasets[vision]~=2.19.0->autotrain-advanced)
+  Using cached pyarrow-17.0.0-cp311-cp311-win_amd64.whl.metadata (3.4 kB)
+Collecting pyarrow-hotfix (from datasets~=2.19.0->datasets[vision]~=2.19.0->autotrain-advanced)
+  Downloading pyarrow_hotfix-0.6-py3-none-any.whl.metadata (3.6 kB)
+INFO: pip is looking at multiple versions of datasets to determine which version is compatible with other requirements. This could take a while.
+Collecting datasets~=2.19.0 (from datasets[vision]~=2.19.0->autotrain-advanced)
+  Downloading datasets-2.19.1-py3-none-any.whl.metadata (19 kB)
+Collecting fsspec>=2021.05.0 (from fsspec[http]>=2021.05.0->evaluate==0.4.1->autotrain-advanced)
+  Downloading fsspec-2024.3.1-py3-none-any.whl.metadata (6.8 kB)
+Requirement already satisfied: aiohttp in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from datasets~=2.19.0->datasets[vision]~=2.19.0->autotrain-advanced) (3.10.3)
+INFO: pip is looking at multiple versions of datasets[vision] to determine which version is compatible with other requirements. This could take a while.
+Collecting Mako (from alembic>=1.5.0->optuna==3.6.1->autotrain-advanced)
+  Downloading Mako-1.3.5-py3-none-any.whl.metadata (2.9 kB)
+Collecting pycparser (from cffi>=1.12->cryptography==42.0.5->autotrain-advanced)
+  Using cached pycparser-2.22-py3-none-any.whl.metadata (943 bytes)
+Collecting dnspython>=2.0.0 (from email_validator>=2.0.0->fastapi==0.111.0->autotrain-advanced)
+  Using cached dnspython-2.6.1-py3-none-any.whl.metadata (5.8 kB)
+Requirement already satisfied: typer>=0.12.3 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from fastapi-cli>=0.0.2->fastapi==0.111.0->autotrain-advanced) (0.12.5)
+Requirement already satisfied: aiohappyeyeballs>=2.3.0 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from aiohttp->datasets~=2.19.0->datasets[vision]~=2.19.0->autotrain-advanced) (2.3.5)
+Requirement already satisfied: aiosignal>=1.1.2 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from aiohttp->datasets~=2.19.0->datasets[vision]~=2.19.0->autotrain-advanced) (1.3.1)
+Requirement already satisfied: attrs>=17.3.0 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from aiohttp->datasets~=2.19.0->datasets[vision]~=2.19.0->autotrain-advanced) (23.2.0)
+Requirement already satisfied: frozenlist>=1.1.1 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from aiohttp->datasets~=2.19.0->datasets[vision]~=2.19.0->autotrain-advanced) (1.4.1)
+Requirement already satisfied: multidict<7.0,>=4.5 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from aiohttp->datasets~=2.19.0->datasets[vision]~=2.19.0->autotrain-advanced) (6.0.5)
+Requirement already satisfied: yarl<2.0,>=1.0 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from aiohttp->datasets~=2.19.0->datasets[vision]~=2.19.0->autotrain-advanced) (1.9.4)
+Collecting contourpy>=1.0.1 (from matplotlib>=2.1.0->pycocotools==2.0.7->autotrain-advanced)
+  Downloading contourpy-1.3.0-cp311-cp311-win_amd64.whl.metadata (5.4 kB)
+Collecting cycler>=0.10 (from matplotlib>=2.1.0->pycocotools==2.0.7->autotrain-advanced)
+  Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.22.0 (from matplotlib>=2.1.0->pycocotools==2.0.7->autotrain-advanced)
+  Downloading fonttools-4.53.1-cp311-cp311-win_amd64.whl.metadata (165 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib>=2.1.0->pycocotools==2.0.7->autotrain-advanced)
+  Downloading kiwisolver-1.4.7-cp311-cp311-win_amd64.whl.metadata (6.4 kB)
+Collecting pyparsing>=2.3.1 (from matplotlib>=2.1.0->pycocotools==2.0.7->autotrain-advanced)
+  Using cached pyparsing-3.1.4-py3-none-any.whl.metadata (5.1 kB)
+Requirement already satisfied: networkx>=2.8 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from scikit-image>=0.21.0->albumentations==1.4.7->autotrain-advanced) (3.3)
+Collecting imageio>=2.33 (from scikit-image>=0.21.0->albumentations==1.4.7->autotrain-advanced)
+  Downloading imageio-2.35.1-py3-none-any.whl.metadata (4.9 kB)
+Collecting tifffile>=2022.8.12 (from scikit-image>=0.21.0->albumentations==1.4.7->autotrain-advanced)
+  Downloading tifffile-2024.9.20-py3-none-any.whl.metadata (32 kB)
+Collecting lazy-loader>=0.4 (from scikit-image>=0.21.0->albumentations==1.4.7->autotrain-advanced)
+  Downloading lazy_loader-0.4-py3-none-any.whl.metadata (7.6 kB)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from sqlalchemy>=1.3.0->optuna==3.6.1->autotrain-advanced) (3.0.3)
+Requirement already satisfied: sympy in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from torch>=1.10.0->accelerate==0.34.1->autotrain-advanced) (1.13.1)
+Collecting docstring-parser>=0.16 (from tyro>=0.5.11->trl==0.10.1->autotrain-advanced)
+  Downloading docstring_parser-0.16-py3-none-any.whl.metadata (3.0 kB)
+Requirement already satisfied: rich>=11.1.0 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from tyro>=0.5.11->trl==0.10.1->autotrain-advanced) (13.7.1)
+Collecting shtab>=1.5.6 (from tyro>=0.5.11->trl==0.10.1->autotrain-advanced)
+  Downloading shtab-1.7.1-py3-none-any.whl.metadata (7.3 kB)
+Requirement already satisfied: httptools>=0.5.0 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from uvicorn[standard]>=0.12.0->fastapi==0.111.0->autotrain-advanced) (0.6.1)
+Requirement already satisfied: python-dotenv>=0.13 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from uvicorn[standard]>=0.12.0->fastapi==0.111.0->autotrain-advanced) (1.0.1)
+Requirement already satisfied: watchfiles>=0.13 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from uvicorn[standard]>=0.12.0->fastapi==0.111.0->autotrain-advanced) (0.24.0)
+Requirement already satisfied: websockets>=10.4 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from uvicorn[standard]>=0.12.0->fastapi==0.111.0->autotrain-advanced) (13.0)
+Collecting types-python-dateutil>=2.8.10 (from arrow->codecarbon==2.3.5->autotrain-advanced)
+  Downloading types_python_dateutil-2.9.0.20240906-py3-none-any.whl.metadata (1.9 kB)
+Requirement already satisfied: zipp>=0.5 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from importlib-metadata->diffusers==0.27.2->autotrain-advanced) (3.20.1)
+Collecting torch>=1.10.0 (from accelerate==0.34.1->autotrain-advanced)
+  Downloading torch-2.4.1-cp311-cp311-win_amd64.whl.metadata (27 kB)
+Requirement already satisfied: markdown-it-py>=2.2.0 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from rich>=11.1.0->tyro>=0.5.11->trl==0.10.1->autotrain-advanced) (3.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from rich>=11.1.0->tyro>=0.5.11->trl==0.10.1->autotrain-advanced) (2.18.0)
+Requirement already satisfied: shellingham>=1.3.0 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from typer>=0.12.3->fastapi-cli>=0.0.2->fastapi==0.111.0->autotrain-advanced) (1.5.4)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from sympy->torch>=1.10.0->accelerate==0.34.1->autotrain-advanced) (1.3.0)
+Requirement already satisfied: mdurl~=0.1 in c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from markdown-it-py>=2.2.0->rich>=11.1.0->tyro>=0.5.11->trl==0.10.1->autotrain-advanced) (0.1.2)
+Downloading autotrain_advanced-0.8.19-py3-none-any.whl (340 kB)
+Downloading accelerate-0.34.1-py3-none-any.whl (324 kB)
+Downloading albumentations-1.4.7-py3-none-any.whl (155 kB)
+Downloading Authlib-1.3.0-py2.py3-none-any.whl (223 kB)
+Downloading codecarbon-2.3.5-py3-none-any.whl (174 kB)
+Downloading cryptography-42.0.5-cp39-abi3-win_amd64.whl (2.9 MB)
+   ---------------------------------------- 0.0/2.9 MB ? eta -:--:--
+   -------------- ------------------------- 1.0/2.9 MB 8.4 MB/s eta 0:00:01
+   -------------------------------- ------- 2.4/2.9 MB 6.1 MB/s eta 0:00:01
+   ---------------------------------------- 2.9/2.9 MB 5.4 MB/s eta 0:00:00
+Downloading diffusers-0.27.2-py3-none-any.whl (2.0 MB)
+   ---------------------------------------- 0.0/2.0 MB ? eta -:--:--
+   -------------------- ------------------- 1.0/2.0 MB 6.3 MB/s eta 0:00:01
+   ------------------------------- -------- 1.6/2.0 MB 5.6 MB/s eta 0:00:01
+   ---------------------------------------- 2.0/2.0 MB 4.2 MB/s eta 0:00:00
+Using cached einops-0.7.0-py3-none-any.whl (44 kB)
+Downloading evaluate-0.4.1-py3-none-any.whl (84 kB)
+Using cached fastapi-0.111.0-py3-none-any.whl (91 kB)
+Using cached httpx-0.27.0-py3-none-any.whl (75 kB)
+Using cached huggingface_hub-0.23.4-py3-none-any.whl (402 kB)
+Downloading invisible_watermark-0.2.0-py3-none-any.whl (1.6 MB)
+   ---------------------------------------- 0.0/1.6 MB ? eta -:--:--
+   ------------------------- -------------- 1.0/1.6 MB 5.0 MB/s eta 0:00:01
+   ---------------------------------------- 1.6/1.6 MB 5.9 MB/s eta 0:00:00
+Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Downloading jiwer-3.0.3-py3-none-any.whl (21 kB)
+Downloading joblib-1.4.0-py3-none-any.whl (301 kB)
+Downloading loguru-0.7.2-py3-none-any.whl (62 kB)
+Using cached nltk-3.8.1-py3-none-any.whl (1.5 MB)
+Downloading optuna-3.6.1-py3-none-any.whl (380 kB)
+Downloading packaging-24.0-py3-none-any.whl (53 kB)
+Downloading peft-0.12.0-py3-none-any.whl (296 kB)
+Downloading pillow-10.3.0-cp311-cp311-win_amd64.whl (2.5 MB)
+   ---------------------------------------- 0.0/2.5 MB ? eta -:--:--
+   ---------------- ----------------------- 1.0/2.5 MB 6.3 MB/s eta 0:00:01
+   ------------------------ --------------- 1.6/2.5 MB 4.0 MB/s eta 0:00:01
+   ---------------------------------------- 2.5/2.5 MB 4.7 MB/s eta 0:00:00
+Downloading protobuf-4.23.4-cp310-abi3-win_amd64.whl (422 kB)
+Downloading py7zr-0.21.0-py3-none-any.whl (67 kB)
+Downloading pycocotools-2.0.7-cp311-cp311-win_amd64.whl (85 kB)
+Downloading pydantic-2.7.1-py3-none-any.whl (409 kB)
+Downloading pyngrok-7.1.6-py3-none-any.whl (22 kB)
+Using cached python_multipart-0.0.9-py3-none-any.whl (22 kB)
+Using cached PyYAML-6.0.1-cp311-cp311-win_amd64.whl (144 kB)
+Downloading requests-2.31.0-py3-none-any.whl (62 kB)
+Downloading sacremoses-0.1.1-py3-none-any.whl (897 kB)
+   ---------------------------------------- 0.0/897.5 kB ? eta -:--:--
+   ---------------------------------------- 897.5/897.5 kB 4.5 MB/s eta 0:00:00
+Downloading scikit_learn-1.5.0-cp311-cp311-win_amd64.whl (11.0 MB)
+   ---------------------------------------- 0.0/11.0 MB ? eta -:--:--
+   --- ------------------------------------ 1.0/11.0 MB 7.2 MB/s eta 0:00:02
+   --------- ------------------------------ 2.6/11.0 MB 6.9 MB/s eta 0:00:02
+   ------------ --------------------------- 3.4/11.0 MB 5.9 MB/s eta 0:00:02
+   --------------- ------------------------ 4.2/11.0 MB 5.5 MB/s eta 0:00:02
+   ------------------ --------------------- 5.0/11.0 MB 5.0 MB/s eta 0:00:02
+   --------------------- ------------------ 6.0/11.0 MB 5.1 MB/s eta 0:00:01
+   ------------------------- -------------- 7.1/11.0 MB 5.1 MB/s eta 0:00:01
+   ------------------------- -------------- 7.1/11.0 MB 5.1 MB/s eta 0:00:01
+   ------------------------- -------------- 7.1/11.0 MB 5.1 MB/s eta 0:00:01
+   ------------------------- -------------- 7.1/11.0 MB 5.1 MB/s eta 0:00:01
+   -------------------------- ------------- 7.3/11.0 MB 3.3 MB/s eta 0:00:02
+   ------------------------------ --------- 8.4/11.0 MB 3.4 MB/s eta 0:00:01
+   --------------------------------- ------ 9.2/11.0 MB 3.5 MB/s eta 0:00:01
+   ------------------------------------ --- 10.0/11.0 MB 3.5 MB/s eta 0:00:01
+   ---------------------------------------  10.7/11.0 MB 3.6 MB/s eta 0:00:01
+   ---------------------------------------- 11.0/11.0 MB 3.5 MB/s eta 0:00:00
+Downloading sentence_transformers-3.1.0-py3-none-any.whl (249 kB)
+Downloading sentencepiece-0.2.0-cp311-cp311-win_amd64.whl (991 kB)
+   ---------------------------------------- 0.0/991.5 kB ? eta -:--:--
+   ---------------------------------------- 991.5/991.5 kB 5.2 MB/s eta 0:00:00
+Downloading tensorboard-2.16.2-py3-none-any.whl (5.5 MB)
+   ---------------------------------------- 0.0/5.5 MB ? eta -:--:--
+   --------- ------------------------------ 1.3/5.5 MB 6.1 MB/s eta 0:00:01
+   ----------------- ---------------------- 2.4/5.5 MB 5.8 MB/s eta 0:00:01
+   ------------------------ --------------- 3.4/5.5 MB 5.8 MB/s eta 0:00:01
+   ---------------------------------- ----- 4.7/5.5 MB 5.8 MB/s eta 0:00:01
+   -------------------------------------- - 5.2/5.5 MB 5.5 MB/s eta 0:00:01
+   ---------------------------------------- 5.5/5.5 MB 4.9 MB/s eta 0:00:00
+Downloading tiktoken-0.6.0-cp311-cp311-win_amd64.whl (798 kB)
+   ---------------------------------------- 0.0/798.7 kB ? eta -:--:--
+   -------------------------- ------------- 524.3/798.7 kB 4.2 MB/s eta 0:00:01
+   ---------------------------------------- 798.7/798.7 kB 4.9 MB/s eta 0:00:00
+Downloading timm-1.0.8-py3-none-any.whl (2.3 MB)
+   ---------------------------------------- 0.0/2.3 MB ? eta -:--:--
+   ------------- -------------------------- 0.8/2.3 MB 4.2 MB/s eta 0:00:01
+   ------------------------------- -------- 1.8/2.3 MB 4.8 MB/s eta 0:00:01
+   ---------------------------------------- 2.3/2.3 MB 4.7 MB/s eta 0:00:00
+Downloading torchmetrics-1.4.0-py3-none-any.whl (868 kB)
+   ---------------------------------------- 0.0/868.8 kB ? eta -:--:--
+   ---------------------------------------- 868.8/868.8 kB 5.6 MB/s eta 0:00:00
+Using cached tqdm-4.66.4-py3-none-any.whl (78 kB)
+Downloading transformers-4.44.2-py3-none-any.whl (9.5 MB)
+   ---------------------------------------- 0.0/9.5 MB ? eta -:--:--
+   --- ------------------------------------ 0.8/9.5 MB 5.6 MB/s eta 0:00:02
+   ------ --------------------------------- 1.6/9.5 MB 5.6 MB/s eta 0:00:02
+   ------ --------------------------------- 1.6/9.5 MB 5.6 MB/s eta 0:00:02
+   ------ --------------------------------- 1.6/9.5 MB 5.6 MB/s eta 0:00:02
+   ------ --------------------------------- 1.6/9.5 MB 5.6 MB/s eta 0:00:02
+   ----------- ---------------------------- 2.6/9.5 MB 2.1 MB/s eta 0:00:04
+   ------------ --------------------------- 2.9/9.5 MB 2.0 MB/s eta 0:00:04
+   ------------- -------------------------- 3.1/9.5 MB 2.1 MB/s eta 0:00:03
+   ------------- -------------------------- 3.1/9.5 MB 2.1 MB/s eta 0:00:03
+   ------------- -------------------------- 3.1/9.5 MB 2.1 MB/s eta 0:00:03
+   ------------- -------------------------- 3.1/9.5 MB 2.1 MB/s eta 0:00:03
+   ------------------ --------------------- 4.5/9.5 MB 1.8 MB/s eta 0:00:03
+   ----------------------- ---------------- 5.5/9.5 MB 2.0 MB/s eta 0:00:02
+   ------------------------- -------------- 6.0/9.5 MB 2.1 MB/s eta 0:00:02
+   -------------------------- ------------- 6.3/9.5 MB 2.1 MB/s eta 0:00:02
+   ---------------------------- ----------- 6.8/9.5 MB 2.1 MB/s eta 0:00:02
+   --------------------------------- ------ 7.9/9.5 MB 2.2 MB/s eta 0:00:01
+   ------------------------------------ --- 8.7/9.5 MB 2.4 MB/s eta 0:00:01
+   ---------------------------------------  9.4/9.5 MB 2.4 MB/s eta 0:00:01
+   ---------------------------------------- 9.5/9.5 MB 2.4 MB/s eta 0:00:00
+Downloading trl-0.10.1-py3-none-any.whl (280 kB)
+Downloading uvicorn-0.29.0-py3-none-any.whl (60 kB)
+Downloading werkzeug-3.0.2-py3-none-any.whl (226 kB)
+Downloading xgboost-2.0.3-py3-none-win_amd64.whl (99.8 MB)
+   ---------------------------------------- 0.0/99.8 MB ? eta -:--:--
+   ---------------------------------------- 1.0/99.8 MB 4.6 MB/s eta 0:00:22
+    --------------------------------------- 1.8/99.8 MB 4.2 MB/s eta 0:00:24
+   - -------------------------------------- 3.1/99.8 MB 4.9 MB/s eta 0:00:20
+   - -------------------------------------- 4.5/99.8 MB 5.3 MB/s eta 0:00:19
+   -- ------------------------------------- 6.0/99.8 MB 5.7 MB/s eta 0:00:17
+   -- ------------------------------------- 6.8/99.8 MB 5.7 MB/s eta 0:00:17
+   --- ------------------------------------ 7.9/99.8 MB 5.5 MB/s eta 0:00:17
+   --- ------------------------------------ 8.7/99.8 MB 5.4 MB/s eta 0:00:17
+   --- ------------------------------------ 10.0/99.8 MB 5.4 MB/s eta 0:00:17
+   ---- ----------------------------------- 11.0/99.8 MB 5.2 MB/s eta 0:00:18
+   ---- ----------------------------------- 11.8/99.8 MB 5.2 MB/s eta 0:00:17
+   ---- ----------------------------------- 12.3/99.8 MB 5.0 MB/s eta 0:00:18
+   ----- ---------------------------------- 13.4/99.8 MB 5.0 MB/s eta 0:00:18
+   ----- ---------------------------------- 14.4/99.8 MB 4.9 MB/s eta 0:00:18
+   ----- ---------------------------------- 14.9/99.8 MB 4.9 MB/s eta 0:00:18
+   ------ --------------------------------- 15.7/99.8 MB 4.7 MB/s eta 0:00:18
+   ------ --------------------------------- 16.5/99.8 MB 4.7 MB/s eta 0:00:18
+   ------- -------------------------------- 17.8/99.8 MB 4.7 MB/s eta 0:00:18
+   ------- -------------------------------- 19.1/99.8 MB 4.8 MB/s eta 0:00:17
+   ------- -------------------------------- 19.7/99.8 MB 4.7 MB/s eta 0:00:17
+   -------- ------------------------------- 20.7/99.8 MB 4.7 MB/s eta 0:00:17
+   -------- ------------------------------- 21.8/99.8 MB 4.8 MB/s eta 0:00:17
+   --------- ------------------------------ 22.5/99.8 MB 4.7 MB/s eta 0:00:17
+   --------- ------------------------------ 23.3/99.8 MB 4.7 MB/s eta 0:00:17
+   --------- ------------------------------ 24.4/99.8 MB 4.7 MB/s eta 0:00:17
+   ---------- ----------------------------- 26.0/99.8 MB 4.8 MB/s eta 0:00:16
+   ---------- ----------------------------- 26.5/99.8 MB 4.7 MB/s eta 0:00:16
+   ---------- ----------------------------- 27.0/99.8 MB 4.7 MB/s eta 0:00:16
+   ----------- ---------------------------- 27.8/99.8 MB 4.6 MB/s eta 0:00:16
+   ----------- ---------------------------- 28.6/99.8 MB 4.6 MB/s eta 0:00:16
+   ----------- ---------------------------- 29.4/99.8 MB 4.6 MB/s eta 0:00:16
+   ----------- ---------------------------- 29.9/99.8 MB 4.5 MB/s eta 0:00:16
+   ------------ --------------------------- 30.4/99.8 MB 4.5 MB/s eta 0:00:16
+   ------------ --------------------------- 30.7/99.8 MB 4.4 MB/s eta 0:00:16
+   ------------ --------------------------- 31.5/99.8 MB 4.4 MB/s eta 0:00:16
+   ------------ --------------------------- 32.2/99.8 MB 4.3 MB/s eta 0:00:16
+   ------------- -------------------------- 33.0/99.8 MB 4.3 MB/s eta 0:00:16
+   ------------- -------------------------- 33.8/99.8 MB 4.3 MB/s eta 0:00:16
+   ------------- -------------------------- 34.6/99.8 MB 4.3 MB/s eta 0:00:16
+   -------------- ------------------------- 35.7/99.8 MB 4.3 MB/s eta 0:00:15
+   -------------- ------------------------- 36.2/99.8 MB 4.3 MB/s eta 0:00:15
+   -------------- ------------------------- 37.0/99.8 MB 4.3 MB/s eta 0:00:15
+   --------------- ------------------------ 37.7/99.8 MB 4.3 MB/s eta 0:00:15
+   --------------- ------------------------ 38.5/99.8 MB 4.3 MB/s eta 0:00:15
+   --------------- ------------------------ 39.3/99.8 MB 4.2 MB/s eta 0:00:15
+   --------------- ------------------------ 39.6/99.8 MB 4.2 MB/s eta 0:00:15
+   --------------- ------------------------ 39.8/99.8 MB 4.2 MB/s eta 0:00:15
+   --------------- ------------------------ 39.8/99.8 MB 4.2 MB/s eta 0:00:15
+   --------------- ------------------------ 39.8/99.8 MB 4.2 MB/s eta 0:00:15
+   ---------------- ----------------------- 40.4/99.8 MB 3.9 MB/s eta 0:00:16
+   ---------------- ----------------------- 40.4/99.8 MB 3.9 MB/s eta 0:00:16
+   ---------------- ----------------------- 40.4/99.8 MB 3.9 MB/s eta 0:00:16
+   ---------------- ----------------------- 40.4/99.8 MB 3.9 MB/s eta 0:00:16
+   ---------------- ----------------------- 41.2/99.8 MB 3.7 MB/s eta 0:00:16
+   ---------------- ----------------------- 42.2/99.8 MB 3.7 MB/s eta 0:00:16
+   ---------------- ----------------------- 42.2/99.8 MB 3.7 MB/s eta 0:00:16
+   ---------------- ----------------------- 42.2/99.8 MB 3.7 MB/s eta 0:00:16
+   ---------------- ----------------------- 42.2/99.8 MB 3.7 MB/s eta 0:00:16
+   ----------------- ---------------------- 42.7/99.8 MB 3.5 MB/s eta 0:00:17
+   ----------------- ---------------------- 42.7/99.8 MB 3.5 MB/s eta 0:00:17
+   ----------------- ---------------------- 42.7/99.8 MB 3.5 MB/s eta 0:00:17
+   ----------------- ---------------------- 42.7/99.8 MB 3.5 MB/s eta 0:00:17
+   ----------------- ---------------------- 42.7/99.8 MB 3.5 MB/s eta 0:00:17
+   ----------------- ---------------------- 43.3/99.8 MB 3.3 MB/s eta 0:00:18
+   ----------------- ---------------------- 44.0/99.8 MB 3.3 MB/s eta 0:00:17
+   ----------------- ---------------------- 44.8/99.8 MB 3.3 MB/s eta 0:00:17
+   ------------------ --------------------- 45.6/99.8 MB 3.3 MB/s eta 0:00:17
+   ------------------ --------------------- 46.7/99.8 MB 3.3 MB/s eta 0:00:16
+   ------------------- -------------------- 47.7/99.8 MB 3.4 MB/s eta 0:00:16
+   ------------------- -------------------- 48.5/99.8 MB 3.4 MB/s eta 0:00:16
+   ------------------- -------------------- 49.5/99.8 MB 3.4 MB/s eta 0:00:15
+   -------------------- ------------------- 50.6/99.8 MB 3.4 MB/s eta 0:00:15
+   -------------------- ------------------- 51.4/99.8 MB 3.4 MB/s eta 0:00:15
+   --------------------- ------------------ 52.4/99.8 MB 3.4 MB/s eta 0:00:14
+   --------------------- ------------------ 53.0/99.8 MB 3.4 MB/s eta 0:00:14
+   --------------------- ------------------ 53.7/99.8 MB 3.4 MB/s eta 0:00:14
+   --------------------- ------------------ 54.0/99.8 MB 3.4 MB/s eta 0:00:14
+   --------------------- ------------------ 54.3/99.8 MB 3.4 MB/s eta 0:00:14
+   --------------------- ------------------ 54.3/99.8 MB 3.4 MB/s eta 0:00:14
+   --------------------- ------------------ 54.5/99.8 MB 3.3 MB/s eta 0:00:14
+   --------------------- ------------------ 54.8/99.8 MB 3.3 MB/s eta 0:00:14
+   ---------------------- ----------------- 55.1/99.8 MB 3.3 MB/s eta 0:00:14
+   ---------------------- ----------------- 55.3/99.8 MB 3.3 MB/s eta 0:00:14
+   ---------------------- ----------------- 55.6/99.8 MB 3.2 MB/s eta 0:00:14
+   ---------------------- ----------------- 56.1/99.8 MB 3.2 MB/s eta 0:00:14
+   ---------------------- ----------------- 56.9/99.8 MB 3.2 MB/s eta 0:00:14
+   ----------------------- ---------------- 57.4/99.8 MB 3.2 MB/s eta 0:00:14
+   ----------------------- ---------------- 58.2/99.8 MB 3.2 MB/s eta 0:00:13
+   ----------------------- ---------------- 58.7/99.8 MB 3.2 MB/s eta 0:00:13
+   ----------------------- ---------------- 59.5/99.8 MB 3.2 MB/s eta 0:00:13
+   ------------------------ --------------- 60.3/99.8 MB 3.2 MB/s eta 0:00:13
+   ------------------------ --------------- 61.3/99.8 MB 3.2 MB/s eta 0:00:12
+   ------------------------ --------------- 62.1/99.8 MB 3.2 MB/s eta 0:00:12
+   ------------------------- -------------- 62.4/99.8 MB 3.2 MB/s eta 0:00:12
+   ------------------------- -------------- 63.2/99.8 MB 3.2 MB/s eta 0:00:12
+   ------------------------- -------------- 63.7/99.8 MB 3.2 MB/s eta 0:00:12
+   ------------------------- -------------- 64.2/99.8 MB 3.2 MB/s eta 0:00:12
+   -------------------------- ------------- 65.0/99.8 MB 3.2 MB/s eta 0:00:11
+   -------------------------- ------------- 65.8/99.8 MB 3.2 MB/s eta 0:00:11
+   -------------------------- ------------- 66.8/99.8 MB 3.2 MB/s eta 0:00:11
+   --------------------------- ------------ 67.4/99.8 MB 3.3 MB/s eta 0:00:10
+   --------------------------- ------------ 67.9/99.8 MB 3.2 MB/s eta 0:00:10
+   --------------------------- ------------ 68.2/99.8 MB 3.2 MB/s eta 0:00:10
+   --------------------------- ------------ 68.9/99.8 MB 3.2 MB/s eta 0:00:10
+   --------------------------- ------------ 69.7/99.8 MB 3.2 MB/s eta 0:00:10
+   ---------------------------- ----------- 70.5/99.8 MB 3.2 MB/s eta 0:00:10
+   ---------------------------- ----------- 71.3/99.8 MB 3.2 MB/s eta 0:00:09
+   ---------------------------- ----------- 71.8/99.8 MB 3.2 MB/s eta 0:00:09
+   ---------------------------- ----------- 71.8/99.8 MB 3.2 MB/s eta 0:00:09
+   ---------------------------- ----------- 72.1/99.8 MB 3.2 MB/s eta 0:00:09
+   ----------------------------- ---------- 72.9/99.8 MB 3.2 MB/s eta 0:00:09
+   ----------------------------- ---------- 73.4/99.8 MB 3.2 MB/s eta 0:00:09
+   ----------------------------- ---------- 73.9/99.8 MB 3.2 MB/s eta 0:00:09
+   ----------------------------- ---------- 74.2/99.8 MB 3.2 MB/s eta 0:00:09
+   ----------------------------- ---------- 74.7/99.8 MB 3.2 MB/s eta 0:00:08
+   ------------------------------ --------- 75.0/99.8 MB 3.2 MB/s eta 0:00:08
+   ------------------------------ --------- 75.8/99.8 MB 3.2 MB/s eta 0:00:08
+   ------------------------------ --------- 76.3/99.8 MB 3.2 MB/s eta 0:00:08
+   ------------------------------ --------- 76.3/99.8 MB 3.2 MB/s eta 0:00:08
+   ------------------------------ --------- 76.8/99.8 MB 3.1 MB/s eta 0:00:08
+   ------------------------------- -------- 77.3/99.8 MB 3.1 MB/s eta 0:00:08
+   ------------------------------- -------- 77.9/99.8 MB 3.1 MB/s eta 0:00:08
+   ------------------------------- -------- 78.4/99.8 MB 3.1 MB/s eta 0:00:07
+   ------------------------------- -------- 78.6/99.8 MB 3.1 MB/s eta 0:00:07
+   ------------------------------- -------- 79.2/99.8 MB 3.1 MB/s eta 0:00:07
+   -------------------------------- ------- 80.0/99.8 MB 3.1 MB/s eta 0:00:07
+   -------------------------------- ------- 80.5/99.8 MB 3.1 MB/s eta 0:00:07
+   -------------------------------- ------- 81.0/99.8 MB 3.1 MB/s eta 0:00:07
+   -------------------------------- ------- 81.5/99.8 MB 3.1 MB/s eta 0:00:06
+   -------------------------------- ------- 82.1/99.8 MB 3.1 MB/s eta 0:00:06
+   --------------------------------- ------ 82.8/99.8 MB 3.1 MB/s eta 0:00:06
+   --------------------------------- ------ 83.6/99.8 MB 3.1 MB/s eta 0:00:06
+   --------------------------------- ------ 84.7/99.8 MB 3.1 MB/s eta 0:00:05
+   ---------------------------------- ----- 85.2/99.8 MB 3.1 MB/s eta 0:00:05
+   ---------------------------------- ----- 85.7/99.8 MB 3.1 MB/s eta 0:00:05
+   ---------------------------------- ----- 86.2/99.8 MB 3.1 MB/s eta 0:00:05
+   ----------------------------------- ---- 87.3/99.8 MB 3.1 MB/s eta 0:00:05
+   ----------------------------------- ---- 88.1/99.8 MB 3.1 MB/s eta 0:00:04
+   ----------------------------------- ---- 88.3/99.8 MB 3.1 MB/s eta 0:00:04
+   ----------------------------------- ---- 88.3/99.8 MB 3.1 MB/s eta 0:00:04
+   ----------------------------------- ---- 88.3/99.8 MB 3.1 MB/s eta 0:00:04
+   ----------------------------------- ---- 88.3/99.8 MB 3.1 MB/s eta 0:00:04
+   ----------------------------------- ---- 89.7/99.8 MB 3.1 MB/s eta 0:00:04
+   ------------------------------------ --- 90.4/99.8 MB 3.1 MB/s eta 0:00:04
+   ------------------------------------ --- 91.0/99.8 MB 3.1 MB/s eta 0:00:03
+   ------------------------------------ --- 91.5/99.8 MB 3.1 MB/s eta 0:00:03
+   ------------------------------------- -- 92.3/99.8 MB 3.1 MB/s eta 0:00:03
+   ------------------------------------- -- 92.8/99.8 MB 3.1 MB/s eta 0:00:03
+   ------------------------------------- -- 93.3/99.8 MB 3.0 MB/s eta 0:00:03
+   ------------------------------------- -- 93.3/99.8 MB 3.0 MB/s eta 0:00:03
+   ------------------------------------- -- 93.3/99.8 MB 3.0 MB/s eta 0:00:03
+   ------------------------------------- -- 94.6/99.8 MB 3.0 MB/s eta 0:00:02
+   -------------------------------------- - 95.4/99.8 MB 2.9 MB/s eta 0:00:02
+   -------------------------------------- - 95.9/99.8 MB 2.9 MB/s eta 0:00:02
+   -------------------------------------- - 96.7/99.8 MB 2.9 MB/s eta 0:00:02
+   -------------------------------------- - 97.3/99.8 MB 2.9 MB/s eta 0:00:01
+   ---------------------------------------  98.0/99.8 MB 2.9 MB/s eta 0:00:01
+   ---------------------------------------  98.8/99.8 MB 2.9 MB/s eta 0:00:01
+   ---------------------------------------  99.4/99.8 MB 2.9 MB/s eta 0:00:01
+   ---------------------------------------  99.6/99.8 MB 2.9 MB/s eta 0:00:01
+   ---------------------------------------- 99.8/99.8 MB 2.9 MB/s eta 0:00:00
+Downloading pretty_errors-1.2.25-py3-none-any.whl (17 kB)
+Downloading pydantic_core-2.18.2-cp311-none-win_amd64.whl (1.9 MB)
+   ---------------------------------------- 0.0/1.9 MB ? eta -:--:--
+   ----- ---------------------------------- 0.3/1.9 MB ? eta -:--:--
+   ---------------- ----------------------- 0.8/1.9 MB 1.9 MB/s eta 0:00:01
+   --------------------- ------------------ 1.0/1.9 MB 1.9 MB/s eta 0:00:01
+   --------------------- ------------------ 1.0/1.9 MB 1.9 MB/s eta 0:00:01
+   -------------------------------- ------- 1.6/1.9 MB 1.4 MB/s eta 0:00:01
+   ---------------------------------------- 1.9/1.9 MB 1.7 MB/s eta 0:00:00
+Downloading datasets-2.19.1-py3-none-any.whl (542 kB)
+   ---------------------------------------- 0.0/542.0 kB ? eta -:--:--
+   ------------------- -------------------- 262.1/542.0 kB ? eta -:--:--
+   ---------------------------------------- 542.0/542.0 kB 2.5 MB/s eta 0:00:00
+Downloading hf_transfer-0.1.8-cp311-none-win_amd64.whl (1.2 MB)
+   ---------------------------------------- 0.0/1.2 MB ? eta -:--:--
+   ----------------- ---------------------- 0.5/1.2 MB 5.6 MB/s eta 0:00:01
+   ----------------- ---------------------- 0.5/1.2 MB 5.6 MB/s eta 0:00:01
+   ----------------- ---------------------- 0.5/1.2 MB 5.6 MB/s eta 0:00:01
+   ----------------- ---------------------- 0.5/1.2 MB 5.6 MB/s eta 0:00:01
+   ----------------- ---------------------- 0.5/1.2 MB 5.6 MB/s eta 0:00:01
+   -------------------------- ------------- 0.8/1.2 MB 479.2 kB/s eta 0:00:01
+   -------------------------- ------------- 0.8/1.2 MB 479.2 kB/s eta 0:00:01
+   -------------------------- ------------- 0.8/1.2 MB 479.2 kB/s eta 0:00:01
+   -------------------------- ------------- 0.8/1.2 MB 479.2 kB/s eta 0:00:01
+   -------------------------- ------------- 0.8/1.2 MB 479.2 kB/s eta 0:00:01
+   -------------------------- ------------- 0.8/1.2 MB 479.2 kB/s eta 0:00:01
+   -------------------------- ------------- 0.8/1.2 MB 479.2 kB/s eta 0:00:01
+   ---------------------------------- ----- 1.0/1.2 MB 320.6 kB/s eta 0:00:01
+   ---------------------------------- ----- 1.0/1.2 MB 320.6 kB/s eta 0:00:01
+   ---------------------------------- ----- 1.0/1.2 MB 320.6 kB/s eta 0:00:01
+   ---------------------------------------- 1.2/1.2 MB 309.4 kB/s eta 0:00:00
+Downloading absl_py-2.1.0-py3-none-any.whl (133 kB)
+Downloading alembic-1.13.2-py3-none-any.whl (232 kB)
+Downloading Brotli-1.1.0-cp311-cp311-win_amd64.whl (357 kB)
+Downloading cffi-1.17.1-cp311-cp311-win_amd64.whl (181 kB)
+Using cached email_validator-2.2.0-py3-none-any.whl (33 kB)
+Downloading fastapi_cli-0.0.5-py3-none-any.whl (9.5 kB)
+Downloading fsspec-2024.3.1-py3-none-any.whl (171 kB)
+Downloading inflate64-1.0.0-cp311-cp311-win_amd64.whl (35 kB)
+Downloading lightning_utilities-0.11.7-py3-none-any.whl (26 kB)
+Downloading Markdown-3.7-py3-none-any.whl (106 kB)
+Downloading matplotlib-3.9.2-cp311-cp311-win_amd64.whl (7.8 MB)
+   ---------------------------------------- 0.0/7.8 MB ? eta -:--:--
+   -- ------------------------------------- 0.5/7.8 MB 3.4 MB/s eta 0:00:03
+   ------ --------------------------------- 1.3/7.8 MB 3.5 MB/s eta 0:00:02
+   --------- ------------------------------ 1.8/7.8 MB 3.1 MB/s eta 0:00:02
+   ------------ --------------------------- 2.4/7.8 MB 3.1 MB/s eta 0:00:02
+   ---------------- ----------------------- 3.1/7.8 MB 3.2 MB/s eta 0:00:02
+   -------------------- ------------------- 3.9/7.8 MB 3.3 MB/s eta 0:00:02
+   ---------------------- ----------------- 4.5/7.8 MB 3.3 MB/s eta 0:00:02
+   -------------------------- ------------- 5.2/7.8 MB 3.3 MB/s eta 0:00:01
+   ----------------------------- ---------- 5.8/7.8 MB 3.4 MB/s eta 0:00:01
+   ----------------------------- ---------- 5.8/7.8 MB 3.4 MB/s eta 0:00:01
+   ----------------------------- ---------- 5.8/7.8 MB 3.4 MB/s eta 0:00:01
+   ----------------------------- ---------- 5.8/7.8 MB 3.4 MB/s eta 0:00:01
+   -------------------------------- ------- 6.3/7.8 MB 2.4 MB/s eta 0:00:01
+   -------------------------------- ------- 6.3/7.8 MB 2.4 MB/s eta 0:00:01
+   --------------------------------- ------ 6.6/7.8 MB 2.1 MB/s eta 0:00:01
+   ---------------------------------- ----- 6.8/7.8 MB 2.1 MB/s eta 0:00:01
+   ------------------------------------ --- 7.1/7.8 MB 2.1 MB/s eta 0:00:01
+   -------------------------------------- - 7.6/7.8 MB 2.0 MB/s eta 0:00:01
+   ---------------------------------------- 7.8/7.8 MB 2.1 MB/s eta 0:00:00
+Downloading multivolumefile-0.2.3-py3-none-any.whl (17 kB)
+Downloading opencv_python-4.10.0.84-cp37-abi3-win_amd64.whl (38.8 MB)
+   ---------------------------------------- 0.0/38.8 MB ? eta -:--:--
+    --------------------------------------- 0.5/38.8 MB 4.2 MB/s eta 0:00:10
+   - -------------------------------------- 1.3/38.8 MB 3.5 MB/s eta 0:00:11
+   -- ------------------------------------- 2.1/38.8 MB 3.7 MB/s eta 0:00:11
+   -- ------------------------------------- 2.9/38.8 MB 3.6 MB/s eta 0:00:10
+   --- ------------------------------------ 3.1/38.8 MB 3.7 MB/s eta 0:00:10
+   ---- ----------------------------------- 3.9/38.8 MB 3.3 MB/s eta 0:00:11
+   ---- ----------------------------------- 4.7/38.8 MB 3.4 MB/s eta 0:00:11
+   ----- ---------------------------------- 5.2/38.8 MB 3.3 MB/s eta 0:00:11
+   ------ --------------------------------- 6.0/38.8 MB 3.4 MB/s eta 0:00:10
+   ------ --------------------------------- 6.6/38.8 MB 3.2 MB/s eta 0:00:10
+   ------- -------------------------------- 7.6/38.8 MB 3.4 MB/s eta 0:00:10
+   -------- ------------------------------- 8.4/38.8 MB 3.4 MB/s eta 0:00:09
+   --------- ------------------------------ 8.9/38.8 MB 3.4 MB/s eta 0:00:09
+   --------- ------------------------------ 9.7/38.8 MB 3.4 MB/s eta 0:00:09
+   ---------- ----------------------------- 10.2/38.8 MB 3.3 MB/s eta 0:00:09
+   ----------- ---------------------------- 11.0/38.8 MB 3.4 MB/s eta 0:00:09
+   ------------ --------------------------- 11.8/38.8 MB 3.4 MB/s eta 0:00:08
+   ------------ --------------------------- 12.3/38.8 MB 3.4 MB/s eta 0:00:08
+   ------------- -------------------------- 12.8/38.8 MB 3.3 MB/s eta 0:00:08
+   -------------- ------------------------- 13.6/38.8 MB 3.4 MB/s eta 0:00:08
+   --------------- ------------------------ 14.7/38.8 MB 3.4 MB/s eta 0:00:08
+   --------------- ------------------------ 15.5/38.8 MB 3.5 MB/s eta 0:00:07
+   ----------------- ---------------------- 16.5/38.8 MB 3.5 MB/s eta 0:00:07
+   ----------------- ---------------------- 17.0/38.8 MB 3.5 MB/s eta 0:00:07
+   ------------------ --------------------- 17.8/38.8 MB 3.5 MB/s eta 0:00:07
+   ------------------ --------------------- 18.4/38.8 MB 3.5 MB/s eta 0:00:06
+   ------------------- -------------------- 18.9/38.8 MB 3.5 MB/s eta 0:00:06
+   ------------------- -------------------- 19.4/38.8 MB 3.4 MB/s eta 0:00:06
+   -------------------- ------------------- 20.2/38.8 MB 3.4 MB/s eta 0:00:06
+   --------------------- ------------------ 21.0/38.8 MB 3.4 MB/s eta 0:00:06
+   ---------------------- ----------------- 21.8/38.8 MB 3.4 MB/s eta 0:00:06
+   ---------------------- ----------------- 22.0/38.8 MB 3.4 MB/s eta 0:00:05
+   ----------------------- ---------------- 22.8/38.8 MB 3.4 MB/s eta 0:00:05
+   ------------------------ --------------- 23.3/38.8 MB 3.4 MB/s eta 0:00:05
+   ------------------------ --------------- 23.9/38.8 MB 3.3 MB/s eta 0:00:05
+   ------------------------- -------------- 24.6/38.8 MB 3.3 MB/s eta 0:00:05
+   -------------------------- ------------- 25.4/38.8 MB 3.3 MB/s eta 0:00:05
+   -------------------------- ------------- 26.0/38.8 MB 3.3 MB/s eta 0:00:04
+   --------------------------- ------------ 26.5/38.8 MB 3.3 MB/s eta 0:00:04
+   ---------------------------- ----------- 27.5/38.8 MB 3.4 MB/s eta 0:00:04
+   ----------------------------- ---------- 28.3/38.8 MB 3.4 MB/s eta 0:00:04
+   ------------------------------ --------- 29.4/38.8 MB 3.4 MB/s eta 0:00:03
+   ------------------------------- -------- 30.7/38.8 MB 3.5 MB/s eta 0:00:03
+   -------------------------------- ------- 31.7/38.8 MB 3.5 MB/s eta 0:00:03
+   ---------------------------------- ----- 33.0/38.8 MB 3.6 MB/s eta 0:00:02
+   ---------------------------------- ----- 33.8/38.8 MB 3.6 MB/s eta 0:00:02
+   ----------------------------------- ---- 34.3/38.8 MB 3.6 MB/s eta 0:00:02
+   ------------------------------------ --- 35.7/38.8 MB 3.6 MB/s eta 0:00:01
+   ------------------------------------- -- 36.7/38.8 MB 3.7 MB/s eta 0:00:01
+   ---------------------------------------  38.0/38.8 MB 3.7 MB/s eta 0:00:01
+   ---------------------------------------- 38.8/38.8 MB 3.7 MB/s eta 0:00:00
+Downloading opencv_python_headless-4.10.0.84-cp37-abi3-win_amd64.whl (38.8 MB)
+   ---------------------------------------- 0.0/38.8 MB ? eta -:--:--
+    --------------------------------------- 0.8/38.8 MB 5.6 MB/s eta 0:00:07
+   - -------------------------------------- 1.8/38.8 MB 5.0 MB/s eta 0:00:08
+   -- ------------------------------------- 2.9/38.8 MB 5.1 MB/s eta 0:00:08
+   ---- ----------------------------------- 3.9/38.8 MB 5.3 MB/s eta 0:00:07
+   ----- ---------------------------------- 5.0/38.8 MB 5.4 MB/s eta 0:00:07
+   ------ --------------------------------- 6.0/38.8 MB 5.2 MB/s eta 0:00:07
+   ------- -------------------------------- 7.3/38.8 MB 5.4 MB/s eta 0:00:06
+   -------- ------------------------------- 8.1/38.8 MB 5.3 MB/s eta 0:00:06
+   ---------- ----------------------------- 9.7/38.8 MB 5.5 MB/s eta 0:00:06
+   ---------- ----------------------------- 10.5/38.8 MB 5.5 MB/s eta 0:00:06
+   ----------- ---------------------------- 11.5/38.8 MB 5.3 MB/s eta 0:00:06
+   ------------- -------------------------- 12.8/38.8 MB 5.4 MB/s eta 0:00:05
+   -------------- ------------------------- 14.4/38.8 MB 5.6 MB/s eta 0:00:05
+   --------------- ------------------------ 15.5/38.8 MB 5.5 MB/s eta 0:00:05
+   ----------------- ---------------------- 16.5/38.8 MB 5.5 MB/s eta 0:00:05
+   ------------------ --------------------- 18.1/38.8 MB 5.6 MB/s eta 0:00:04
+   -------------------- ------------------- 19.4/38.8 MB 5.8 MB/s eta 0:00:04
+   --------------------- ------------------ 20.4/38.8 MB 5.8 MB/s eta 0:00:04
+   ---------------------- ----------------- 21.5/38.8 MB 5.6 MB/s eta 0:00:04
+   ---------------------- ----------------- 22.3/38.8 MB 5.5 MB/s eta 0:00:03
+   ----------------------- ---------------- 22.8/38.8 MB 5.5 MB/s eta 0:00:03
+   ------------------------ --------------- 24.1/38.8 MB 5.4 MB/s eta 0:00:03
+   -------------------------- ------------- 25.4/38.8 MB 5.5 MB/s eta 0:00:03
+   --------------------------- ------------ 26.2/38.8 MB 5.4 MB/s eta 0:00:03
+   ---------------------------- ----------- 27.8/38.8 MB 5.5 MB/s eta 0:00:02
+   ----------------------------- ---------- 28.6/38.8 MB 5.5 MB/s eta 0:00:02
+   ------------------------------- -------- 30.1/38.8 MB 5.5 MB/s eta 0:00:02
+   -------------------------------- ------- 31.5/38.8 MB 5.5 MB/s eta 0:00:02
+   --------------------------------- ------ 32.2/38.8 MB 5.5 MB/s eta 0:00:02
+   ---------------------------------- ----- 33.8/38.8 MB 5.5 MB/s eta 0:00:01
+   ------------------------------------ --- 35.4/38.8 MB 5.6 MB/s eta 0:00:01
+   ------------------------------------- -- 36.7/38.8 MB 5.6 MB/s eta 0:00:01
+   -------------------------------------- - 37.0/38.8 MB 5.6 MB/s eta 0:00:01
+   -------------------------------------- - 37.0/38.8 MB 5.6 MB/s eta 0:00:01
+   ---------------------------------------- 38.8/38.8 MB 5.5 MB/s eta 0:00:00
+Using cached pyarrow-17.0.0-cp311-cp311-win_amd64.whl (25.2 MB)
+Downloading pybcj-1.0.2-cp311-cp311-win_amd64.whl (24 kB)
+Downloading pycryptodomex-3.20.0-cp35-abi3-win_amd64.whl (1.8 MB)
+   ---------------------------------------- 0.0/1.8 MB ? eta -:--:--
+   ----------------------------- ---------- 1.3/1.8 MB 8.4 MB/s eta 0:00:01
+   ---------------------------------------- 1.8/1.8 MB 7.4 MB/s eta 0:00:00
+Downloading pyppmd-1.1.0-cp311-cp311-win_amd64.whl (46 kB)
+Downloading pywavelets-1.7.0-cp311-cp311-win_amd64.whl (4.3 MB)
+   ---------------------------------------- 0.0/4.3 MB ? eta -:--:--
+   ------------ --------------------------- 1.3/4.3 MB 6.7 MB/s eta 0:00:01
+   ------------------------ --------------- 2.6/4.3 MB 6.9 MB/s eta 0:00:01
+   ---------------------------------------  4.2/4.3 MB 6.8 MB/s eta 0:00:01
+   ---------------------------------------- 4.3/4.3 MB 6.7 MB/s eta 0:00:00
+Downloading pyzstd-0.16.1-cp311-cp311-win_amd64.whl (244 kB)
+Downloading rapidfuzz-3.9.7-cp311-cp311-win_amd64.whl (1.7 MB)
+   ---------------------------------------- 0.0/1.7 MB ? eta -:--:--
+   ------------------------------- -------- 1.3/1.7 MB 7.5 MB/s eta 0:00:01
+   ---------------------------------------- 1.7/1.7 MB 6.4 MB/s eta 0:00:00
+Downloading responses-0.18.0-py3-none-any.whl (38 kB)
+Downloading scikit_image-0.24.0-cp311-cp311-win_amd64.whl (12.8 MB)
+   ---------------------------------------- 0.0/12.8 MB ? eta -:--:--
+   --- ------------------------------------ 1.0/12.8 MB 7.2 MB/s eta 0:00:02
+   ----- ---------------------------------- 1.8/12.8 MB 5.6 MB/s eta 0:00:02
+   -------- ------------------------------- 2.9/12.8 MB 4.9 MB/s eta 0:00:03
+   ------------- -------------------------- 4.2/12.8 MB 5.1 MB/s eta 0:00:02
+   ---------------- ----------------------- 5.2/12.8 MB 5.4 MB/s eta 0:00:02
+   -------------------- ------------------- 6.6/12.8 MB 5.4 MB/s eta 0:00:02
+   ---------------------- ----------------- 7.1/12.8 MB 5.1 MB/s eta 0:00:02
+   -------------------------- ------------- 8.4/12.8 MB 5.3 MB/s eta 0:00:01
+   ----------------------------- ---------- 9.4/12.8 MB 5.2 MB/s eta 0:00:01
+   ---------------------------------- ----- 11.0/12.8 MB 5.4 MB/s eta 0:00:01
+   -------------------------------------- - 12.3/12.8 MB 5.6 MB/s eta 0:00:01
+   ---------------------------------------- 12.8/12.8 MB 5.5 MB/s eta 0:00:00
+Downloading tensorboard_data_server-0.7.2-py3-none-any.whl (2.4 kB)
+Downloading tyro-0.8.11-py3-none-any.whl (105 kB)
+Using cached ujson-5.10.0-cp311-cp311-win_amd64.whl (42 kB)
+Downloading win32_setctime-1.1.0-py3-none-any.whl (3.6 kB)
+Downloading arrow-1.3.0-py3-none-any.whl (66 kB)
+Downloading colorlog-6.8.2-py3-none-any.whl (11 kB)
+Downloading prometheus_client-0.21.0-py3-none-any.whl (54 kB)
+Downloading py_cpuinfo-9.0.0-py3-none-any.whl (22 kB)
+Downloading pyarrow_hotfix-0.6-py3-none-any.whl (7.9 kB)
+Downloading pynvml-11.5.3-py3-none-any.whl (53 kB)
+Downloading texttable-1.7.0-py2.py3-none-any.whl (10 kB)
+Downloading torchvision-0.19.1-cp311-cp311-win_amd64.whl (1.3 MB)
+   ---------------------------------------- 0.0/1.3 MB ? eta -:--:--
+   ------------------------ --------------- 0.8/1.3 MB 4.8 MB/s eta 0:00:01
+   ---------------------------------------- 1.3/1.3 MB 4.7 MB/s eta 0:00:00
+Downloading torch-2.4.1-cp311-cp311-win_amd64.whl (199.4 MB)
+   ---------------------------------------- 0.0/199.4 MB ? eta -:--:--
+   ---------------------------------------- 1.3/199.4 MB 7.4 MB/s eta 0:00:27
+    --------------------------------------- 2.6/199.4 MB 6.9 MB/s eta 0:00:29
+    --------------------------------------- 3.7/199.4 MB 6.2 MB/s eta 0:00:32
+    --------------------------------------- 4.5/199.4 MB 6.2 MB/s eta 0:00:32
+    --------------------------------------- 5.0/199.4 MB 5.6 MB/s eta 0:00:35
+   - -------------------------------------- 6.0/199.4 MB 5.0 MB/s eta 0:00:39
+   - -------------------------------------- 6.6/199.4 MB 4.7 MB/s eta 0:00:41
+   - -------------------------------------- 6.8/199.4 MB 4.6 MB/s eta 0:00:42
+   - -------------------------------------- 6.8/199.4 MB 4.6 MB/s eta 0:00:42
+   - -------------------------------------- 8.9/199.4 MB 4.4 MB/s eta 0:00:44
+   - -------------------------------------- 10.0/199.4 MB 4.5 MB/s eta 0:00:43
+   -- ------------------------------------- 10.7/199.4 MB 4.6 MB/s eta 0:00:42
+   -- ------------------------------------- 10.7/199.4 MB 4.6 MB/s eta 0:00:42
+   -- ------------------------------------- 11.8/199.4 MB 4.3 MB/s eta 0:00:44
+   -- ------------------------------------- 12.8/199.4 MB 4.3 MB/s eta 0:00:44
+   -- ------------------------------------- 13.6/199.4 MB 4.2 MB/s eta 0:00:45
+   -- ------------------------------------- 14.9/199.4 MB 4.3 MB/s eta 0:00:44
+   --- ------------------------------------ 15.5/199.4 MB 4.3 MB/s eta 0:00:44
+   --- ------------------------------------ 16.3/199.4 MB 4.2 MB/s eta 0:00:44
+   --- ------------------------------------ 17.0/199.4 MB 4.2 MB/s eta 0:00:44
+   --- ------------------------------------ 17.8/199.4 MB 4.2 MB/s eta 0:00:44
+   --- ------------------------------------ 18.9/199.4 MB 4.2 MB/s eta 0:00:43
+   --- ------------------------------------ 19.4/199.4 MB 4.2 MB/s eta 0:00:43
+   ---- ----------------------------------- 20.2/199.4 MB 4.1 MB/s eta 0:00:44
+   ---- ----------------------------------- 21.2/199.4 MB 4.2 MB/s eta 0:00:43
+   ---- ----------------------------------- 22.5/199.4 MB 4.3 MB/s eta 0:00:42
+   ---- ----------------------------------- 23.6/199.4 MB 4.3 MB/s eta 0:00:41
+   ---- ----------------------------------- 24.6/199.4 MB 4.4 MB/s eta 0:00:40
+   ----- ---------------------------------- 25.7/199.4 MB 4.3 MB/s eta 0:00:41
+   ----- ---------------------------------- 26.2/199.4 MB 4.3 MB/s eta 0:00:41
+   ----- ---------------------------------- 27.0/199.4 MB 4.3 MB/s eta 0:00:41
+   ----- ---------------------------------- 28.3/199.4 MB 4.4 MB/s eta 0:00:40
+   ----- ---------------------------------- 29.6/199.4 MB 4.4 MB/s eta 0:00:39
+   ------ --------------------------------- 31.2/199.4 MB 4.5 MB/s eta 0:00:38
+   ------ --------------------------------- 32.5/199.4 MB 4.6 MB/s eta 0:00:37
+   ------ --------------------------------- 34.1/199.4 MB 4.6 MB/s eta 0:00:36
+   ------- -------------------------------- 35.4/199.4 MB 4.7 MB/s eta 0:00:36
+   ------- -------------------------------- 35.9/199.4 MB 4.7 MB/s eta 0:00:35
+   ------- -------------------------------- 37.0/199.4 MB 4.7 MB/s eta 0:00:35
+   ------- -------------------------------- 38.0/199.4 MB 4.7 MB/s eta 0:00:35
+   ------- -------------------------------- 39.1/199.4 MB 4.7 MB/s eta 0:00:35
+   -------- ------------------------------- 40.1/199.4 MB 4.7 MB/s eta 0:00:34
+   -------- ------------------------------- 41.9/199.4 MB 4.8 MB/s eta 0:00:33
+   -------- ------------------------------- 43.3/199.4 MB 4.8 MB/s eta 0:00:33
+   -------- ------------------------------- 44.0/199.4 MB 4.8 MB/s eta 0:00:33
+   --------- ------------------------------ 45.1/199.4 MB 4.8 MB/s eta 0:00:33
+   --------- ------------------------------ 46.1/199.4 MB 4.8 MB/s eta 0:00:32
+   --------- ------------------------------ 47.4/199.4 MB 4.8 MB/s eta 0:00:32
+   --------- ------------------------------ 48.2/199.4 MB 4.8 MB/s eta 0:00:32
+   --------- ------------------------------ 49.3/199.4 MB 4.8 MB/s eta 0:00:32
+   ---------- ----------------------------- 50.1/199.4 MB 4.8 MB/s eta 0:00:31
+   ---------- ----------------------------- 51.1/199.4 MB 4.8 MB/s eta 0:00:31
+   ---------- ----------------------------- 51.6/199.4 MB 4.8 MB/s eta 0:00:31
+   ---------- ----------------------------- 52.4/199.4 MB 4.8 MB/s eta 0:00:31
+   ---------- ----------------------------- 53.7/199.4 MB 4.8 MB/s eta 0:00:31
+   ---------- ----------------------------- 54.0/199.4 MB 4.7 MB/s eta 0:00:31
+   ----------- ---------------------------- 55.3/199.4 MB 4.7 MB/s eta 0:00:31
+   ----------- ---------------------------- 56.6/199.4 MB 4.8 MB/s eta 0:00:30
+   ----------- ---------------------------- 57.7/199.4 MB 4.8 MB/s eta 0:00:30
+   ----------- ---------------------------- 59.0/199.4 MB 4.8 MB/s eta 0:00:30
+   ------------ --------------------------- 60.8/199.4 MB 4.9 MB/s eta 0:00:29
+   ------------ --------------------------- 61.6/199.4 MB 4.9 MB/s eta 0:00:29
+   ------------ --------------------------- 62.9/199.4 MB 4.9 MB/s eta 0:00:28
+   ------------ --------------------------- 64.5/199.4 MB 4.9 MB/s eta 0:00:28
+   ------------- -------------------------- 65.5/199.4 MB 4.9 MB/s eta 0:00:28
+   ------------- -------------------------- 66.6/199.4 MB 4.9 MB/s eta 0:00:27
+   ------------- -------------------------- 67.6/199.4 MB 4.9 MB/s eta 0:00:27
+   ------------- -------------------------- 68.2/199.4 MB 4.9 MB/s eta 0:00:27
+   ------------- -------------------------- 69.2/199.4 MB 4.9 MB/s eta 0:00:27
+   -------------- ------------------------- 70.5/199.4 MB 4.9 MB/s eta 0:00:27
+   -------------- ------------------------- 71.6/199.4 MB 4.9 MB/s eta 0:00:26
+   -------------- ------------------------- 72.9/199.4 MB 4.9 MB/s eta 0:00:26
+   -------------- ------------------------- 74.2/199.4 MB 5.0 MB/s eta 0:00:26
+   --------------- ------------------------ 75.2/199.4 MB 5.0 MB/s eta 0:00:25
+   --------------- ------------------------ 76.5/199.4 MB 5.0 MB/s eta 0:00:25
+   --------------- ------------------------ 77.3/199.4 MB 5.0 MB/s eta 0:00:25
+   --------------- ------------------------ 78.1/199.4 MB 5.0 MB/s eta 0:00:25
+   --------------- ------------------------ 78.6/199.4 MB 4.9 MB/s eta 0:00:25
+   --------------- ------------------------ 79.4/199.4 MB 4.9 MB/s eta 0:00:25
+   ---------------- ----------------------- 80.7/199.4 MB 4.9 MB/s eta 0:00:25
+   ---------------- ----------------------- 81.8/199.4 MB 4.9 MB/s eta 0:00:24
+   ---------------- ----------------------- 82.6/199.4 MB 4.9 MB/s eta 0:00:24
+   ---------------- ----------------------- 82.8/199.4 MB 4.9 MB/s eta 0:00:24
+   ---------------- ----------------------- 83.1/199.4 MB 4.8 MB/s eta 0:00:25
+   ---------------- ----------------------- 83.9/199.4 MB 4.8 MB/s eta 0:00:24
+   ---------------- ----------------------- 84.7/199.4 MB 4.8 MB/s eta 0:00:24
+   ----------------- ---------------------- 85.5/199.4 MB 4.8 MB/s eta 0:00:24
+   ----------------- ---------------------- 86.8/199.4 MB 4.8 MB/s eta 0:00:24
+   ----------------- ---------------------- 88.1/199.4 MB 4.8 MB/s eta 0:00:24
+   ------------------ --------------------- 89.9/199.4 MB 4.9 MB/s eta 0:00:23
+   ------------------ --------------------- 91.2/199.4 MB 4.9 MB/s eta 0:00:23
+   ------------------ --------------------- 92.3/199.4 MB 4.9 MB/s eta 0:00:22
+   ------------------ --------------------- 92.8/199.4 MB 4.9 MB/s eta 0:00:22
+   ------------------ --------------------- 94.4/199.4 MB 4.9 MB/s eta 0:00:22
+   ------------------- -------------------- 95.2/199.4 MB 4.9 MB/s eta 0:00:22
+   ------------------- -------------------- 96.5/199.4 MB 4.9 MB/s eta 0:00:21
+   ------------------- -------------------- 97.8/199.4 MB 4.9 MB/s eta 0:00:21
+   ------------------- -------------------- 99.1/199.4 MB 4.9 MB/s eta 0:00:21
+   -------------------- ------------------- 100.4/199.4 MB 4.9 MB/s eta 0:00:21
+   -------------------- ------------------- 101.2/199.4 MB 4.9 MB/s eta 0:00:20
+   -------------------- ------------------- 102.8/199.4 MB 5.0 MB/s eta 0:00:20
+   -------------------- ------------------- 103.3/199.4 MB 4.9 MB/s eta 0:00:20
+   --------------------- ------------------ 104.9/199.4 MB 5.0 MB/s eta 0:00:20
+   --------------------- ------------------ 106.4/199.4 MB 5.0 MB/s eta 0:00:19
+   --------------------- ------------------ 108.0/199.4 MB 5.0 MB/s eta 0:00:19
+   --------------------- ------------------ 109.6/199.4 MB 5.1 MB/s eta 0:00:18
+   ---------------------- ----------------- 110.9/199.4 MB 5.1 MB/s eta 0:00:18
+   ---------------------- ----------------- 112.5/199.4 MB 5.1 MB/s eta 0:00:18
+   ---------------------- ----------------- 114.0/199.4 MB 5.1 MB/s eta 0:00:17
+   ----------------------- ---------------- 115.1/199.4 MB 5.1 MB/s eta 0:00:17
+   ----------------------- ---------------- 116.4/199.4 MB 5.1 MB/s eta 0:00:17
+   ----------------------- ---------------- 118.0/199.4 MB 5.1 MB/s eta 0:00:16
+   ----------------------- ---------------- 119.5/199.4 MB 5.2 MB/s eta 0:00:16
+   ------------------------ --------------- 120.6/199.4 MB 5.2 MB/s eta 0:00:16
+   ------------------------ --------------- 121.9/199.4 MB 5.2 MB/s eta 0:00:15
+   ------------------------ --------------- 122.9/199.4 MB 5.2 MB/s eta 0:00:15
+   ------------------------ --------------- 123.7/199.4 MB 5.2 MB/s eta 0:00:15
+   ------------------------ --------------- 124.5/199.4 MB 5.2 MB/s eta 0:00:15
+   ------------------------- -------------- 125.3/199.4 MB 5.1 MB/s eta 0:00:15
+   ------------------------- -------------- 126.6/199.4 MB 5.2 MB/s eta 0:00:15
+   ------------------------- -------------- 127.1/199.4 MB 5.1 MB/s eta 0:00:15
+   ------------------------- -------------- 127.9/199.4 MB 5.1 MB/s eta 0:00:14
+   ------------------------- -------------- 129.2/199.4 MB 5.1 MB/s eta 0:00:14
+   -------------------------- ------------- 130.3/199.4 MB 5.1 MB/s eta 0:00:14
+   -------------------------- ------------- 131.1/199.4 MB 5.1 MB/s eta 0:00:14
+   -------------------------- ------------- 132.4/199.4 MB 5.1 MB/s eta 0:00:14
+   -------------------------- ------------- 134.0/199.4 MB 5.2 MB/s eta 0:00:13
+   --------------------------- ------------ 135.5/199.4 MB 5.2 MB/s eta 0:00:13
+   --------------------------- ------------ 136.6/199.4 MB 5.2 MB/s eta 0:00:13
+   --------------------------- ------------ 136.6/199.4 MB 5.2 MB/s eta 0:00:13
+   --------------------------- ------------ 136.6/199.4 MB 5.2 MB/s eta 0:00:13
+   --------------------------- ------------ 136.6/199.4 MB 5.2 MB/s eta 0:00:13
+   --------------------------- ------------ 138.7/199.4 MB 5.1 MB/s eta 0:00:12
+   --------------------------- ------------ 139.5/199.4 MB 5.1 MB/s eta 0:00:12
+   ---------------------------- ----------- 140.0/199.4 MB 5.1 MB/s eta 0:00:12
+   ---------------------------- ----------- 140.2/199.4 MB 5.0 MB/s eta 0:00:12
+   ---------------------------- ----------- 141.3/199.4 MB 5.0 MB/s eta 0:00:12
+   ---------------------------- ----------- 141.8/199.4 MB 5.0 MB/s eta 0:00:12
+   ---------------------------- ----------- 141.8/199.4 MB 5.0 MB/s eta 0:00:12
+   ---------------------------- ----------- 141.8/199.4 MB 5.0 MB/s eta 0:00:12
+   ---------------------------- ----------- 144.4/199.4 MB 5.0 MB/s eta 0:00:11
+   ----------------------------- ---------- 146.0/199.4 MB 5.0 MB/s eta 0:00:11
+   ----------------------------- ---------- 147.1/199.4 MB 5.0 MB/s eta 0:00:11
+   ----------------------------- ---------- 148.6/199.4 MB 5.0 MB/s eta 0:00:11
+   ------------------------------ --------- 149.9/199.4 MB 5.0 MB/s eta 0:00:10
+   ------------------------------ --------- 149.9/199.4 MB 5.0 MB/s eta 0:00:10
+   ------------------------------ --------- 152.3/199.4 MB 5.1 MB/s eta 0:00:10
+   ------------------------------ --------- 153.4/199.4 MB 5.1 MB/s eta 0:00:10
+   ------------------------------ --------- 154.4/199.4 MB 5.0 MB/s eta 0:00:09
+   ------------------------------- -------- 155.7/199.4 MB 5.0 MB/s eta 0:00:09
+   ------------------------------- -------- 156.5/199.4 MB 5.1 MB/s eta 0:00:09
+   ------------------------------- -------- 157.5/199.4 MB 5.1 MB/s eta 0:00:09
+   ------------------------------- -------- 158.9/199.4 MB 5.1 MB/s eta 0:00:08
+   -------------------------------- ------- 159.6/199.4 MB 5.2 MB/s eta 0:00:08
+   -------------------------------- ------- 160.2/199.4 MB 5.1 MB/s eta 0:00:08
+   -------------------------------- ------- 161.5/199.4 MB 5.2 MB/s eta 0:00:08
+   -------------------------------- ------- 162.8/199.4 MB 5.1 MB/s eta 0:00:08
+   -------------------------------- ------- 163.3/199.4 MB 5.1 MB/s eta 0:00:08
+   -------------------------------- ------- 163.8/199.4 MB 5.1 MB/s eta 0:00:07
+   -------------------------------- ------- 164.1/199.4 MB 5.1 MB/s eta 0:00:07
+   --------------------------------- ------ 164.9/199.4 MB 5.1 MB/s eta 0:00:07
+   --------------------------------- ------ 164.9/199.4 MB 5.1 MB/s eta 0:00:07
+   --------------------------------- ------ 165.2/199.4 MB 5.1 MB/s eta 0:00:07
+   --------------------------------- ------ 165.2/199.4 MB 5.1 MB/s eta 0:00:07
+   --------------------------------- ------ 166.5/199.4 MB 5.0 MB/s eta 0:00:07
+   --------------------------------- ------ 167.5/199.4 MB 5.0 MB/s eta 0:00:07
+   --------------------------------- ------ 168.3/199.4 MB 5.0 MB/s eta 0:00:07
+   --------------------------------- ------ 169.3/199.4 MB 5.0 MB/s eta 0:00:06
+   ---------------------------------- ----- 170.1/199.4 MB 5.0 MB/s eta 0:00:06
+   ---------------------------------- ----- 171.2/199.4 MB 5.1 MB/s eta 0:00:06
+   ---------------------------------- ----- 172.0/199.4 MB 5.0 MB/s eta 0:00:06
+   ---------------------------------- ----- 173.8/199.4 MB 5.1 MB/s eta 0:00:06
+   ----------------------------------- ---- 174.9/199.4 MB 5.1 MB/s eta 0:00:05
+   ----------------------------------- ---- 175.6/199.4 MB 5.0 MB/s eta 0:00:05
+   ----------------------------------- ---- 176.9/199.4 MB 5.1 MB/s eta 0:00:05
+   ----------------------------------- ---- 178.0/199.4 MB 5.1 MB/s eta 0:00:05
+   ----------------------------------- ---- 179.3/199.4 MB 5.1 MB/s eta 0:00:04
+   ------------------------------------ --- 180.1/199.4 MB 5.1 MB/s eta 0:00:04
+   ------------------------------------ --- 181.4/199.4 MB 5.1 MB/s eta 0:00:04
+   ------------------------------------ --- 182.7/199.4 MB 5.1 MB/s eta 0:00:04
+   ------------------------------------ --- 184.0/199.4 MB 5.1 MB/s eta 0:00:04
+   ------------------------------------- -- 185.3/199.4 MB 5.1 MB/s eta 0:00:03
+   ------------------------------------- -- 186.4/199.4 MB 5.1 MB/s eta 0:00:03
+   ------------------------------------- -- 188.0/199.4 MB 5.1 MB/s eta 0:00:03
+   ------------------------------------- -- 188.7/199.4 MB 5.1 MB/s eta 0:00:03
+   -------------------------------------- - 189.8/199.4 MB 5.1 MB/s eta 0:00:02
+   -------------------------------------- - 190.8/199.4 MB 5.1 MB/s eta 0:00:02
+   -------------------------------------- - 191.6/199.4 MB 5.1 MB/s eta 0:00:02
+   -------------------------------------- - 191.9/199.4 MB 5.1 MB/s eta 0:00:02
+   -------------------------------------- - 193.7/199.4 MB 5.0 MB/s eta 0:00:02
+   ---------------------------------------  194.5/199.4 MB 5.0 MB/s eta 0:00:01
+   ---------------------------------------  195.0/199.4 MB 5.0 MB/s eta 0:00:01
+   ---------------------------------------  195.6/199.4 MB 5.0 MB/s eta 0:00:01
+   ---------------------------------------  196.6/199.4 MB 5.0 MB/s eta 0:00:01
+   ---------------------------------------  198.2/199.4 MB 5.0 MB/s eta 0:00:01
+   ---------------------------------------  199.2/199.4 MB 5.0 MB/s eta 0:00:01
+   ---------------------------------------- 199.4/199.4 MB 5.0 MB/s eta 0:00:00
+Downloading xxhash-3.5.0-cp311-cp311-win_amd64.whl (30 kB)
+Downloading contourpy-1.3.0-cp311-cp311-win_amd64.whl (217 kB)
+Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Using cached dnspython-2.6.1-py3-none-any.whl (307 kB)
+Downloading docstring_parser-0.16-py3-none-any.whl (36 kB)
+Downloading fonttools-4.53.1-cp311-cp311-win_amd64.whl (2.2 MB)
+   ---------------------------------------- 0.0/2.2 MB ? eta -:--:--
+   ------------------- -------------------- 1.0/2.2 MB 6.3 MB/s eta 0:00:01
+   ---------------------------------------- 2.2/2.2 MB 6.2 MB/s eta 0:00:00
+Downloading imageio-2.35.1-py3-none-any.whl (315 kB)
+Downloading kiwisolver-1.4.7-cp311-cp311-win_amd64.whl (56 kB)
+Downloading lazy_loader-0.4-py3-none-any.whl (12 kB)
+Using cached pyparsing-3.1.4-py3-none-any.whl (104 kB)
+Downloading shtab-1.7.1-py3-none-any.whl (14 kB)
+Downloading tifffile-2024.9.20-py3-none-any.whl (228 kB)
+Downloading types_python_dateutil-2.9.0.20240906-py3-none-any.whl (9.7 kB)
+Downloading Mako-1.3.5-py3-none-any.whl (78 kB)
+Using cached pycparser-2.22-py3-none-any.whl (117 kB)
+Building wheels for collected packages: ipadic, rouge-score, seqeval
+  Building wheel for ipadic (pyproject.toml): started
+  Building wheel for ipadic (pyproject.toml): finished with status 'done'
+  Created wheel for ipadic: filename=ipadic-1.0.0-py3-none-any.whl size=13556719 sha256=f75e84a6e048c8e09d9847d4d56a60a064298c8dabfc4bcf72081f7fcca33731
+  Stored in directory: c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local\pip\cache\wheels\44\56\37\f543963822b85260c9f948df8fac8c20169c80dc71b24dc407
+  Building wheel for rouge-score (pyproject.toml): started
+  Building wheel for rouge-score (pyproject.toml): finished with status 'done'
+  Created wheel for rouge-score: filename=rouge_score-0.1.2-py3-none-any.whl size=24974 sha256=a771656458586961ca59f58b45c4b040ce271eb8c7e56eda7513efc89447ef65
+  Stored in directory: c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local\pip\cache\wheels\1e\19\43\8a442dc83660ca25e163e1bd1f89919284ab0d0c1475475148
+  Building wheel for seqeval (pyproject.toml): started
+  Building wheel for seqeval (pyproject.toml): finished with status 'done'
+  Created wheel for seqeval: filename=seqeval-1.2.2-py3-none-any.whl size=16185 sha256=86669807305706f0c4692fd8620b8da9aba3d091e02fa49089cab03c4059d667
+  Stored in directory: c:\users\danie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local\pip\cache\wheels\bc\92\f0\243288f899c2eacdfa8c5f9aede4c71a9bad0ee26a01dc5ead
+Successfully built ipadic rouge-score seqeval
+Installing collected packages: texttable, sentencepiece, py-cpuinfo, ipadic, brotli, xxhash, win32-setctime, werkzeug, ujson, types-python-dateutil, tqdm, tifffile, tensorboard-data-server, shtab, requests, rapidfuzz, pyzstd, pyyaml, PyWavelets, python-multipart, pyppmd, pyparsing, pynvml, pydantic-core, pycryptodomex, pycparser, pybcj, pyarrow-hotfix, pyarrow, protobuf, prometheus-client, pretty-errors, Pillow, packaging, opencv-python-headless, opencv-python, multivolumefile, markdown, Mako, kiwisolver, joblib, itsdangerous, inflate64, hf-transfer, fsspec, fonttools, einops, docstring-parser, dnspython, cycler, contourpy, colorlog, absl-py, xgboost, uvicorn, torch, tiktoken, tensorboard, scikit-learn, sacremoses, responses, pyngrok, pydantic, py7zr, nltk, matplotlib, loguru, lightning-utilities, lazy-loader, jiwer, imageio, huggingface-hub, httpx, email_validator, cffi, arrow, alembic, tyro, torchvision, torchmetrics, seqeval, scikit-image, rouge-score, pycocotools, optuna, invisible-watermark, diffusers, cryptography, codecarbon, accelerate, transformers, timm, fastapi-cli, datasets, authlib, albumentations, trl, sentence-transformers, peft, fastapi, evaluate, autotrain-advanced
+  Attempting uninstall: tqdm
+    Found existing installation: tqdm 4.66.5
+    Uninstalling tqdm-4.66.5:
+      Successfully uninstalled tqdm-4.66.5
+  Attempting uninstall: requests
+    Found existing installation: requests 2.32.3
+    Uninstalling requests-2.32.3:
+      Successfully uninstalled requests-2.32.3
+  Attempting uninstall: pyyaml
+    Found existing installation: PyYAML 6.0.2
+    Uninstalling PyYAML-6.0.2:
+      Successfully uninstalled PyYAML-6.0.2
+  Attempting uninstall: pydantic-core
+    Found existing installation: pydantic_core 2.20.1
+    Uninstalling pydantic_core-2.20.1:
+      Successfully uninstalled pydantic_core-2.20.1
+  Attempting uninstall: protobuf
+    Found existing installation: protobuf 4.25.4
+    Uninstalling protobuf-4.25.4:
+      Successfully uninstalled protobuf-4.25.4
+  Attempting uninstall: Pillow
+    Found existing installation: pillow 10.4.0
+    Uninstalling pillow-10.4.0:
+      Successfully uninstalled pillow-10.4.0
+  Attempting uninstall: packaging
+    Found existing installation: packaging 24.1
+    Uninstalling packaging-24.1:
+      Successfully uninstalled packaging-24.1
+  Attempting uninstall: joblib
+    Found existing installation: joblib 1.4.2
+    Uninstalling joblib-1.4.2:
+      Successfully uninstalled joblib-1.4.2
+  Attempting uninstall: fsspec
+    Found existing installation: fsspec 2024.6.1
+    Uninstalling fsspec-2024.6.1:
+      Successfully uninstalled fsspec-2024.6.1
+  Attempting uninstall: uvicorn
+    Found existing installation: uvicorn 0.30.5
+    Uninstalling uvicorn-0.30.5:
+      Successfully uninstalled uvicorn-0.30.5
+  Attempting uninstall: torch
+    Found existing installation: torch 2.4.0
+    Uninstalling torch-2.4.0:
+      Successfully uninstalled torch-2.4.0
+  Attempting uninstall: tiktoken
+    Found existing installation: tiktoken 0.7.0
+    Uninstalling tiktoken-0.7.0:
+      Successfully uninstalled tiktoken-0.7.0
+  Attempting uninstall: scikit-learn
+    Found existing installation: scikit-learn 1.5.1
+    Uninstalling scikit-learn-1.5.1:
+      Successfully uninstalled scikit-learn-1.5.1
+  Attempting uninstall: pydantic
+    Found existing installation: pydantic 2.8.2
+    Uninstalling pydantic-2.8.2:
+      Successfully uninstalled pydantic-2.8.2
+  Attempting uninstall: huggingface-hub
+    Found existing installation: huggingface-hub 0.24.5
+    Uninstalling huggingface-hub-0.24.5:
+      Successfully uninstalled huggingface-hub-0.24.5
+  Attempting uninstall: httpx
+    Found existing installation: httpx 0.27.2
+    Uninstalling httpx-0.27.2:
+      Successfully uninstalled httpx-0.27.2
+  Attempting uninstall: transformers
+    Found existing installation: transformers 4.44.0
+    Uninstalling transformers-4.44.0:
+      Successfully uninstalled transformers-4.44.0
+  Attempting uninstall: sentence-transformers
+    Found existing installation: sentence-transformers 3.0.1
+    Uninstalling sentence-transformers-3.0.1:
+      Successfully uninstalled sentence-transformers-3.0.1
+  Attempting uninstall: fastapi
+    Found existing installation: fastapi 0.112.0
+    Uninstalling fastapi-0.112.0:
+      Successfully uninstalled fastapi-0.112.0
+Successfully installed Mako-1.3.5 Pillow-10.3.0 PyWavelets-1.7.0 absl-py-2.1.0 accelerate-0.34.1 albumentations-1.4.7 alembic-1.13.2 arrow-1.3.0 authlib-1.3.0 autotrain-advanced-0.8.19 brotli-1.1.0 cffi-1.17.1 codecarbon-2.3.5 colorlog-6.8.2 contourpy-1.3.0 cryptography-42.0.5 cycler-0.12.1 datasets-2.19.1 diffusers-0.27.2 dnspython-2.6.1 docstring-parser-0.16 einops-0.7.0 email_validator-2.2.0 evaluate-0.4.1 fastapi-0.111.0 fastapi-cli-0.0.5 fonttools-4.53.1 fsspec-2024.3.1 hf-transfer-0.1.8 httpx-0.27.0 huggingface-hub-0.23.4 imageio-2.35.1 inflate64-1.0.0 invisible-watermark-0.2.0 ipadic-1.0.0 itsdangerous-2.2.0 jiwer-3.0.3 joblib-1.4.0 kiwisolver-1.4.7 lazy-loader-0.4 lightning-utilities-0.11.7 loguru-0.7.2 markdown-3.7 matplotlib-3.9.2 multivolumefile-0.2.3 nltk-3.8.1 opencv-python-4.10.0.84 opencv-python-headless-4.10.0.84 optuna-3.6.1 packaging-24.0 peft-0.12.0 pretty-errors-1.2.25 prometheus-client-0.21.0 protobuf-4.23.4 py-cpuinfo-9.0.0 py7zr-0.21.0 pyarrow-17.0.0 pyarrow-hotfix-0.6 pybcj-1.0.2 pycocotools-2.0.7 pycparser-2.22 pycryptodomex-3.20.0 pydantic-2.7.1 pydantic-core-2.18.2 pyngrok-7.1.6 pynvml-11.5.3 pyparsing-3.1.4 pyppmd-1.1.0 python-multipart-0.0.9 pyyaml-6.0.1 pyzstd-0.16.1 rapidfuzz-3.9.7 requests-2.31.0 responses-0.18.0 rouge-score-0.1.2 sacremoses-0.1.1 scikit-image-0.24.0 scikit-learn-1.5.0 sentence-transformers-3.1.0 sentencepiece-0.2.0 seqeval-1.2.2 shtab-1.7.1 tensorboard-2.16.2 tensorboard-data-server-0.7.2 texttable-1.7.0 tifffile-2024.9.20 tiktoken-0.6.0 timm-1.0.8 torch-2.4.1 torchmetrics-1.4.0 torchvision-0.19.1 tqdm-4.66.4 transformers-4.44.2 trl-0.10.1 types-python-dateutil-2.9.0.20240906 tyro-0.8.11 ujson-5.10.0 uvicorn-0.29.0 werkzeug-3.0.2 win32-setctime-1.1.0 xgboost-2.0.3 xxhash-3.5.0
